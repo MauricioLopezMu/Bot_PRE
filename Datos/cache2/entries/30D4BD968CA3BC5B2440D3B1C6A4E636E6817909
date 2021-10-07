@@ -1,0 +1,1922 @@
+{
+  "interstitial": [
+    {
+      "name": "guest-disconnect-interstitial-trial",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 2,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "guest-trial",
+      "conversionPoint": "extension",
+      "layout": "transparent",
+      "content": {
+        "en": {
+          "html": "<h1 class='campaign-heading-l'><b>Start your FREE ZenMate VPN trial</b><br><small>and discover:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servers in 74+ countries.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Special streaming servers (Netflix, Disney +, BBC iPlayer, Amazon Prime, and more).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Smart locations, Whitelist feature, Stealth connection.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps for all devices (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/en_US/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Create your account",
+          "subCta": "Start the 7 days free trial"
+        },
+        "fr": {
+          "html": "<h1 class='campaign-heading-m'><b>Lancez votre essai gratuit ZenMate VPN</b><br><small>et découvrez :</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Des serveurs dans plus de 74 pays.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des serveurs de Streaming dédiés (Netflix, Disney +, BBC iPlayer, Amazon Prime et plus).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des emplacements intelligents, des fonctionnalités Whitelist, Connexion Stealth.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des apps sur chaque appareil (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/fr_FR/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Créez votre compte",
+          "subCta": "Testez-le 7 jours gratuitement"
+        },
+        "de": {
+          "html": "<h1 class='campaign-heading-m'><b>Beginne deinen KOSTENLOSEN Testzeitraum für ZenMate VPN</b><br><small>Und entdecke:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Server in über 74 Ländern.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Spezielle Streaming-Server (Netflix, Disney +, BBC iPlayer, Amazon Prime und weitere).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Intelligente Standorte, Whitelist-Funktion, Stealth-Verbindung.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps für alle Geräte (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/de_DE/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Leg dein Nutzerkonto an",
+          "subCta": "Beginne mit dem 7-tägigen Testzeitraum"
+        },
+        "nl": {
+          "html": "<h1 class='campaign-heading-m'><b>Start uw GRATIS ZenMate VPN-proefversie</b><br><small>En ontdek:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servers in meer dan 74 landen.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Speciale streamingservers (Netflix, Disney +, BBC iPlayer, Amazon Prime en meer).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Slimme locaties, Witte lijst, Verborgen verbinding.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps voor alle apparaten (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/en_US/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Maak uw account aan",
+          "subCta": "Begin uw gratis test voor 7 dagen"
+        },
+        "ko": {
+          "html": "<h1 class='campaign-heading-m'><b>무료 ZenMate VPN 평가판 시작</b><br><small>기능 확인:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>74개 이상의 국가에 있는 서버.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>특별 스트리밍 서버(Netflix, Disney +, BBC iPlayer, Amazon Prime 등).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>스마트 위치, 허용 목록 기능, 스텔스 연결.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>모든 장치를 위한 앱(Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/ko_KR/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "사용자 계정 만들기",
+          "subCta": "7일 무료 평가판 시작"
+        },
+        "es": {
+          "html": "<h1 class='campaign-heading-m'><b>Inicie su prueba GRATIS de ZenMate VPN</b><br><small>Y descubra:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servidores en más de 74 países.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Servidores especiales de streaming (Netflix, Disney +, BBC iPlayer, Amazon Prime y otros).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Ubicaciones inteligentes, función de lista blanca, conexión sigilosa.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Aplicaciones para todos los dispositivos (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/es_ES/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Crear su cuenta",
+          "subCta": "Iniciar la prueba gratis de 7 días"
+        },
+        "tr": {
+          "html": "<h1 class='campaign-heading-l'><b>ÜCRETSİZ ZenMate VPN denemeni başlat</b><br><small>ve keşfedin:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>74+ ülkede sunucular.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Özel çevrimiçi yürütme sunucuları (Netflix, Disney +, BBC iPlayer, Amazon Prime ve daha fazlası).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Akıllı konumlar, Beyaz Liste özelliği, Görünmez bağlantı.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Tüm cihazlar için uygulamalar (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/tr_TR/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Hesap oluştur",
+          "subCta": "7 günlük ücretsiz denemeyi başlat"
+        },
+        "ru": {
+          "html": "<h1 class='campaign-heading-s'><b>Начните БЕСПЛАТНЫЙ пробный период ZenMate VPN</b><br><small>И откройте для себя:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Серверы в 74+ странах.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Специальные серверы для стриминга (Netflix, Disney +, BBC iPlayer, Amazon Prime и другие).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Автоматический выбор местоположений, белый список, скрытое подключение.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Приложения для всех устройств (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/ru_RU/signup?utm_source=guest-disconnect-interstitial-trial&utm_medium=extension",
+          "cta": "Создать новый аккаунт",
+          "subCta": "Начать 7-дневный бесплатный пробный период"
+        }
+      }
+    },
+    {
+      "name": "guest-visit-interstitial-trial",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "visit",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "userCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "guest-trial",
+      "conversionPoint": "extension",
+      "layout": "transparent",
+      "content": {
+        "en": {
+          "html": "<h1 class='campaign-heading-l'><b>Start your FREE ZenMate VPN trial</b><br><small>and discover: </small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servers in 74+ countries.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Special streaming servers (Netflix, Disney +, BBC iPlayer, Amazon Prime, and more).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Smart locations, Whitelist feature, Stealth connection.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps for all devices (Windows, macOS, iOS, Android).</li></ul>",
+          "url": "https://account.zenmate.com/en_US/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Create your account",
+          "subCta": "Start the 7 days free trial"
+        },
+        "fr": {
+          "html": "<h1 class='campaign-heading-m'><b>Lancez votre essai gratuit ZenMate VPN</b><br><small>et découvrez : </small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Des serveurs dans plus de 74 pays.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des serveurs de Streaming dédiés (Netflix, Disney +, BBC iPlayer, Amazon Prime et plus).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des emplacements intelligents, des fonctionnalités Whitelist, Connexion Stealth.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Des apps sur chaque appareil (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/fr_FR/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Créez votre compte",
+          "subCta": "Testez-le 7 jours gratuitement"
+        },
+        "de": {
+          "html": "<h1 class='campaign-heading-m'><b>Beginne deinen KOSTENLOSEN Testzeitraum für ZenMate VPN</b><br><small>Und entdecke:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Server in über 74 Ländern.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Spezielle Streaming-Server (Netflix, Disney +, BBC iPlayer, Amazon Prime und weitere).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Intelligente Standorte, Whitelist-Funktion, Stealth-Verbindung.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps für alle Geräte (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/de_DE/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Leg dein Nutzerkonto an",
+          "subCta": "Beginne mit dem 7-tägigen Testzeitraum"
+        },
+        "nl": {
+          "html": "<h1 class='campaign-heading-m'><b>Start uw GRATIS ZenMate VPN-proefversie</b><br><small>En ontdek:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servers in meer dan 74 landen.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Speciale streamingservers (Netflix, Disney +, BBC iPlayer, Amazon Prime en meer).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Slimme locaties, Witte lijst, Verborgen verbinding.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Apps voor alle apparaten (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/en_US/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Maak uw account aan",
+          "subCta": "Begin uw gratis test voor 7 dagen"
+        },
+        "ko": {
+          "html": "<h1 class='campaign-heading-m'><b>무료 ZenMate VPN 평가판 시작</b><br><small>기능 확인:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>74개 이상의 국가에 있는 서버.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>특별 스트리밍 서버(Netflix, Disney +, BBC iPlayer, Amazon Prime 등).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>스마트 위치, 허용 목록 기능, 스텔스 연결.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>모든 장치를 위한 앱(Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/ko_KR/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "사용자 계정 만들기",
+          "subCta": "7일 무료 평가판 시작"
+        },
+        "es": {
+          "html": "<h1 class='campaign-heading-m'><b>Inicie su prueba GRATIS de ZenMate VPN</b><br><small>Y descubra:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Servidores en más de 74 países.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Servidores especiales de streaming (Netflix, Disney +, BBC iPlayer, Amazon Prime y otros).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Ubicaciones inteligentes, función de lista blanca, conexión sigilosa.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Aplicaciones para todos los dispositivos (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/es_ES/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Crear su cuenta",
+          "subCta": "Iniciar la prueba gratis de 7 días"
+        },
+        "tr": {
+          "html": "<h1 class='campaign-heading-l'><b>ÜCRETSİZ ZenMate VPN denemeni başlat</b><br><small>ve keşfedin:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>74+ ülkede sunucular.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Özel çevrimiçi yürütme sunucuları (Netflix, Disney +, BBC iPlayer, Amazon Prime ve daha fazlası).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Akıllı konumlar, Beyaz Liste özelliği, Görünmez bağlantı.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Tüm cihazlar için uygulamalar (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/tr_TR/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Hesap oluştur",
+          "subCta": "7 günlük ücretsiz denemeyi başlat"
+        },
+        "ru": {
+          "html": "<h1 class='campaign-heading-s'><b>Начните БЕСПЛАТНЫЙ пробный период ZenMate VPN</b><br><small>И откройте для себя:</small></h1><ul class='mt-3 features-list'>  <li><span class=' mr-2'>✓</span>Серверы в 74+ странах.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Специальные серверы для стриминга (Netflix, Disney +, BBC iPlayer, Amazon Prime и другие).</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Автоматический выбор местоположений, белый список, скрытое подключение.</li>  <li class=' mt-1'><span class=' mr-2'>✓</span>Приложения для всех устройств (Windows, macOS, iOS, Android).</li>  </ul>",
+          "url": "https://account.zenmate.com/ru_RU/signup?utm_source=guest-visit-interstitial-trial&utm_medium=extension",
+          "cta": "Создать новый аккаунт",
+          "subCta": "Начать 7-дневный бесплатный пробный период"
+        }
+      }
+    },
+    {
+      "name": "guest-disconnect-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 2,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=guest-disconnect-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "guest-visit-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "visit",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=guest-visit-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "free-disconnect-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "free"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 2,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=free-disconnect-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "free-visit-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "free"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "visit",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=free-visit-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "trialExpired-disconnect-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "trialExpired"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 2,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=trialExpired-disconnect-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "trialExpired-visit-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "trialExpired"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "visit",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=trialExpired-visit-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "trial-disconnect-interstitial-summer-ultimate",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "trial"
+        ],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_en.png",
+          "url": "https://zenmate.com/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_de.png",
+          "url": "https://zenmate.com/de/kaufen?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_es.png",
+          "url": "https://zenmate.com/es/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_fr.png",
+          "url": "https://zenmate.com/fr/acheter?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_ko.png",
+          "url": "https://zenmate.com/ko/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_nl.png",
+          "url": "https://zenmate.com/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_ru.png",
+          "url": "https://zenmate.com/ru/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_tr.png",
+          "url": "https://zenmate.com/tr/order?utm_source=trial-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "proMonthly-disconnect-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 1,
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=proMonthly-disconnect-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+    {
+      "name": "pro6months-disconnect-interstitial-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 6,
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 4,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=pro6months-disconnect-interstitial-summer-pro&utm_medium=extension"
+        }
+      },
+      "content": {}
+    },
+
+    {
+      "name": "proYearly-disconnect-interstitial-summer-ultimate",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 12,
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "hasBackArrow": true,
+        "hasHeader": true,
+        "triggerType": "disconnect",
+        "triggerCampaignCount": 5,
+        "dailyCap": 1,
+        "styles": {
+          "contentPadding": "5px 0px 20px 0px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "summer_2021",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_en.png",
+          "url": "https://zenmate.com/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_de.png",
+          "url": "https://zenmate.com/de/kaufen?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_es.png",
+          "url": "https://zenmate.com/es/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_fr.png",
+          "url": "https://zenmate.com/fr/acheter?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_ko.png",
+          "url": "https://zenmate.com/ko/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_nl.png",
+          "url": "https://zenmate.com/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_ru.png",
+          "url": "https://zenmate.com/ru/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_interstitial_ultimate_tr.png",
+          "url": "https://zenmate.com/tr/order?utm_source=proYearly-disconnect-interstitial-summer-ultimate&utm_medium=extension"
+        }
+      },
+      "content": {}
+    }
+  ],
+  "homeBanner": [
+    {
+      "name": "guest-banner-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "guest-banner-summer-pro",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_nl.png",
+          "url": "https://zenmate.com/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=guest-banner-summer-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "trial-banner-summer-pro",
+      "settings": {
+        "env": [
+          "dev", "production"
+        ],
+        "subscription": [
+          "trial"
+        ],
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "trial-banner-summer-pro",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_nl.png",
+          "url": "https://zenmate.com/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=trial-banner-summer-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "free-banner-summer-pro",
+      "settings": {
+        "env": [
+          "dev","production"
+        ],
+        "subscription": [
+          "free"
+        ],
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "free-banner-summer-pro",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_nl.png",
+          "url": "https://zenmate.com/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=free-banner-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=free-banner-summer-pro&-free&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "trialExpired-banner-summer-pro",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "trialExpired"
+        ],
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "trialExpired-banner-summer-pro",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=trialExpired-banner-summer-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "proMonthly-banner-summer-proYearly",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 1,
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "proMonthly-banner-summer-proYearly",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_en.png",
+          "url": "https://zenmate.com/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_de.png",
+          "url": "https://zenmate.com/de/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_es.png",
+          "url": "https://zenmate.com/es/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_fr.png",
+          "url": "https://zenmate.com/fr/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ko.png",
+          "url": "https://zenmate.com/ko/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_nl.png",
+          "url": "https://zenmate.com/nl/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_ru.png",
+          "url": "https://zenmate.com/ru/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_pro_tr.png",
+          "url": "https://zenmate.com/tr/order-pro?utm_source=proMonthly-banner-summer-proYearly&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "pro6months-banner-summer-ultimate",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 6,
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "pro6months-banner-summer-ultimate",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_en.png",
+          "url": "https://zenmate.com/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_fr.png",
+          "url": "https://zenmate.com/fr/acheter?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_de.png",
+          "url": "https://zenmate.com/de/kaufen?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_nl.png",
+          "url": "https://zenmate.com/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_ko.png",
+          "url": "https://zenmate.com/ko/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_es.png",
+          "url": "https://zenmate.com/es/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_tr.png",
+          "url": "https://zenmate.com/tr/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_ru.png",
+          "url": "https://zenmate.com/ru/order?utm_source=pro6months-banner-summer-ultimate&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "proYearly-banner-summer-ultimate",
+      "settings": {
+        "env": [
+          "production","dev"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "runtime": 12,
+        "active": true,
+        "startDate": "2020-09-08",
+        "endDate": "2021-12-31"
+      },
+      "campaign": "proYearly-banner-summer-ultimate",
+      "conversionPoint": "extension",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_en.png",
+          "url": "https://zenmate.com/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_fr.png",
+          "url": "https://zenmate.com/fr/acheter?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_de.png",
+          "url": "https://zenmate.com/de/kaufen?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_nl.png",
+          "url": "https://zenmate.com/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_ko.png",
+          "url": "https://zenmate.com/ko/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_es.png",
+          "url": "https://zenmate.com/es/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_tr.png",
+          "url": "https://zenmate.com/tr/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/summer-campaign-21/zm_summer_2021_ext_ban_ultimate_ru.png",
+          "url": "https://zenmate.com/ru/order?utm_source=proYearly-banner-summer-ultimate&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "upcomingMaintenance",
+      "settings": {
+        "env": [
+          "dev",
+          "production"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trial",
+          "pro",
+          "ultimate"
+        ],
+        "active": false,
+        "startDate": "2020-08-28",
+        "endDate": "2020-09-01"
+      },
+      "campaign": "maintenance",
+      "conversionPoint": "maintenance",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/Maintenance+new+size+EN%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/DE%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/ES%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/FR%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/KO%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/NL%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/RU%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/upcoming-maintenance/TR%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        }
+      }
+    },
+    {
+      "name": "ongoingMaintenance",
+      "settings": {
+        "env": [
+          "dev",
+          "production"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trial",
+          "trialExpired",
+          "pro",
+          "ultimate"
+        ],
+        "active": false,
+        "startDate": "2020-09-01",
+        "endDate": "2020-09-02"
+      },
+      "campaign": "maintenance",
+      "conversionPoint": "maintenance",
+      "type": "image",
+      "content": {
+        "en": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/Maintenance+new+size+EN+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "de": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/DE+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "es": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/ES+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "fr": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/FR+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "ko": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/KO+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "nl": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/NL+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "ru": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/RU+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        },
+        "tr": {
+          "src": "https://www.mate.zone/cms/imgs/maintenance-banners/ongoing-maintenance/TR+–+1%402x.png",
+          "url": "https://zenguard.zendesk.com/hc/en-us/articles/360012521118"
+        }
+      }
+    }
+  ],
+  "alert": [
+    {
+      "name": "allFree-disney-alert-pro",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trialExpired"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "domain": "disneyplus.com",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "streaming",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade your plan and unblock new streaming content from all over the world",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Mettez votre abonnement à niveau et débloquez de nouveaux contenus en Streaming partout dans le monde",
+          "btnText": "Mettre à niveau",
+          "link": "https://zenmate.com/fr/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade dein Abo und entsperre neue Streaming-Inhalte aus der ganzen Welt",
+          "btnText": "Jetzt Upgraden",
+          "link": "https://zenmate.com/de/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade uw plan en deblokkeer nieuwe streaminginhoud uit de hele wereld",
+          "btnText": "Upgrade Nu",
+          "link": "https://zenmate.com/nl/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "요금제를 업그레이드하고 전 세계 모든 곳에서 새로운 스트리밍 콘텐츠를 차단 해제하세요.",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Mejore su plan y desbloquee nuevos contenidos de streaming de todo el mundo",
+          "btnText": "Mejorar plan ahora",
+          "link": "https://zenmate.com/es/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Planınızı yükseltin ve tüm dünya çevresinden yeni çevrimiçi yayınların engelini kaldırın",
+          "btnText": "Şimdi yükselt",
+          "link": "https://zenmate.com/tr/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Обновите подписку и разблокируйте новый стриминговый контент со всего мира",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order-pro?utm_source=allFree-disney-alert-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "allFree-netflix-alert-pro",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trialExpired"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "domain": "netflix.com",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "streaming",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade your ZenMate subscription to connect to our streaming servers and discover new content",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Mettez votre abonnement ZenMate à niveau et connectez-vous à nos serveurs de Streaming pour y découvrir de nouveaux contenus",
+          "btnText": "Mettre à niveau",
+          "link": "https://zenmate.com/fr/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade dein ZenMate Abo, um dich mit unseren Streaming-Servern zu verbinden und neue Inhalte zu entdecken",
+          "btnText": "Jetzt Upgraden",
+          "link": "https://zenmate.com/de/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Upgrade uw ZenMate-abonnement om verbinding te maken met onze streamingservers en nieuwe inhoud te ontdekken",
+          "btnText": "Upgrade Nu",
+          "link": "https://zenmate.com/nl/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "ZenMate 구독을 업그레이드하여 스트리밍 서버에 연결하고 새로운 콘텐츠를 찾아보세요.",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Mejore su suscripción de ZenMate para conectarse a nuestros servidores de streaming y descubrir contenidos nuevos",
+          "btnText": "Mejorar plan ahora",
+          "link": "https://zenmate.com/es/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Çevrimiçi yürütme sunucularına bağlanmak ve yeni içerikler keşfetmek için ZenMate aboneliğinizi yükseltin",
+          "btnText": "Şimdi yükselt",
+          "link": "https://zenmate.com/tr/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Обновите вашу подписку ZenMate, чтобы подключиться к нашим стриминговым серверам и исследовать новый контент",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order-pro?utm_source=allFree-netflix-alert-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "premium-netflix-alert",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "trial",
+          "pro",
+          "ultimate"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "domain": "netflix.com",
+        "triggerCampaignCount": 2,
+        "dailyCap": 1
+      },
+      "campaign": "streaming",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Discover unlimited streaming content by connecting to our special streaming servers",
+          "btnText": null,
+          "link": null
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Découvrez une infinité de contenus en Streaming en vous connectant à nos serveurs dédiés",
+          "btnText": null,
+          "link": null
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Entdecke unbegrenzte Streaming-Inhalte, indem du dich mit unseren speziellen Streaming-Servern verbindest",
+          "btnText": null,
+          "link": null
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Ontdek onbeperkte streaminginhoud door te verbinden met onze speciale streamingservers",
+          "btnText": null,
+          "link": null
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "특별 스트리밍 서버에 연결하여 무제한 스트리밍 콘텐츠를 이용하세요.",
+          "btnText": null,
+          "link": null
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Descubra contenido ilimitado en streaming conectándose a nuestros servidores especiales de streaming",
+          "btnText": null,
+          "link": null
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Özel çevrimiçi yürütme sunucularına bağlanarak sınırsız çevrimiçi yayınları keşfedin",
+          "btnText": null,
+          "link": null
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Откройте для себя неограниченные возможности стриминга, подключившись к нашим специальным стриминг-серверам",
+          "btnText": null,
+          "link": null
+        }
+      }
+    },
+    {
+      "name": "all-ERR_CERT_DATE_INVALID-alert",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trial",
+          "trialExpired",
+          "pro",
+          "ultimate"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "error": "net::ERR_CERT_DATE_INVALID",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "connected": false
+      },
+      "campaign": "error",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Protect and encrypt all your online data by connecting to a ZenMate VPN server when surfing on insecure websites",
+          "btnText": null,
+          "link": null
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Protégez et cryptez l’intégralité de vos données en vous connectant à un serveur ZenMate VPN sur les sites non sécurisés",
+          "btnText": null,
+          "link": null
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Schütze und verschlüssele alle deine Online-Daten, indem du dich beim Surfen auf unsicheren Websites mit ZenMate VPN verbindest",
+          "btnText": null,
+          "link": null
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Bescherm en codeer al uw online gegevens door verbinding te maken met een ZenMate VPN-server wanneer u surft op onbeveiligde websites",
+          "btnText": null,
+          "link": null
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "안전하지 않은 웹 사이트를 이용할 때 ZenMate VPN 서버에 연결하여 온라인 데이터를 보호하고 암호화하세요.",
+          "btnText": null,
+          "link": null
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Proteja y cifre todos sus datos en línea conectándose a un servidor de ZenMate VPN cuando navegue por sitios web no seguros",
+          "btnText": null,
+          "link": null
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Güvenli olmayan web sitelerinde gezinirken ZenMate VPN sunucusuna bağlanarak tüm çevrimiçi verilerinizi şifreleyin ve koruyun",
+          "btnText": null,
+          "link": null
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Защитите и зашифруйте все ваши сетевые данные при посещении незащищенных веб-сайтов, подключившись к серверу ZenMate VPN",
+          "btnText": null,
+          "link": null
+        }
+      }
+    },
+    {
+      "name": "all-ERR_CONNECTION_TIMED_OUT-alert",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest",
+          "free",
+          "trial",
+          "trialExpired",
+          "pro",
+          "ultimate"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "error": "net::ERR_CONNECTION_TIMED_OUT",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1,
+        "connected": false
+      },
+      "campaign": "error",
+      "conversionPoint": "new-extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Unblock websites with the ZenMate VPN extension by connecting to servers from different location",
+          "btnText": null,
+          "link": null
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Débloquez les sites avec l’extension ZenMate VPN en vous connectant à des serveurs localisés en dehors de votre région",
+          "btnText": null,
+          "link": null
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Entsperre Websites mit der VPN-Erweiterung von ZenMate, indem du dich mit Servern an einem anderen Standort verbindest",
+          "btnText": null,
+          "link": null
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Deblokkeer websites met de ZenMate VPN-extensie door verbinding te maken met servers vanaf een andere locatie",
+          "btnText": null,
+          "link": null
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "다른 위치의 서버에 연결하여 ZenMate VPN 확장을 통해 웹 사이트를 차단 해제하세요.",
+          "btnText": null,
+          "link": null
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Desbloquee sitios web con la extensión de ZenMate VPN conectándose a servidores situados en otras ubicaciones",
+          "btnText": null,
+          "link": null
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "ZenMate VPN uzantısıyla farklı konumlardan sunuculara bağlanarak web sitelerinin engelini kaldırın",
+          "btnText": null,
+          "link": null
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Разблокируйте веб-сайты с помощью расширения ZenMate VPN, подключившись к серверам из разных стран",
+          "btnText": null,
+          "link": null
+        }
+      }
+    },
+    {
+      "name": "guest-alert-trial",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "guest"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "start-trial",
+      "conversionPoint": "extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Get access to servers from 74 countries, streaming servers and unlimited devices",
+          "btnText": "Start FREE Trial",
+          "link": "https://account.zenmate.com/en_US/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Lancez votre version d’essai gratuit ZenMate VPN et accédez à des serveurs dans plus de 74 pays, des serveurs de Streaming et un nombre illimité d’appareils",
+          "btnText": "Testez-le GRATUITEMENT",
+          "link": "https://account.zenmate.com/fr_FR/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Starte deine kostenlose Textversion von ZenMate VPN und greife auf Server in 74+ Ländern, Streaming-Server sowie unbegrenzt viele Geräte zu",
+          "btnText": "GRATIS Test starten",
+          "link": "https://account.zenmate.com/de_DE/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Start uw gratis proefperiode van ZenMate VPN en krijg toegang tot servers in meer dan 74 landen, streamingservers en een onbeperkt aantal apparaten",
+          "btnText": "Start de GRATIS proefperiode",
+          "link": "https://account.zenmate.com/en_US/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "ZenMate VPN 무료 평가판을 시작하고 74개 이상의 국가에 분산된 서버, 스트리밍 서버 및 무제한 장치로 원하는 위치에 액세스할 수 있습니다",
+          "btnText": "무료 평가판 시작",
+          "link": "https://account.zenmate.com/ko_KR/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Comience su prueba gratis de ZenMate VPN y acceda a servidores en más de 74 países, servidores de streaming y dispositivos ilimitados",
+          "btnText": "Comenzar prueba GRATIS",
+          "link": "https://account.zenmate.com/es_ES/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Ücretsiz ZenMate VPN Denemenizi Başlatın ve 74+ ülkeden sunuculara, çevrimiçi yürütme sunucularına ve sınırsız cihaza erişin",
+          "btnText": "ÜCRETSİZ Denemeyi Başlat",
+          "link": "https://account.zenmate.com/tr_TR/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Начните бесплатный пробный период ZenMate VPN и получите доступ к местоположениям в 74+ странах, стриминговым серверам и подключению любого количества устройств",
+          "btnText": "Начните БЕСПЛАТНЫЙ пробный период",
+          "link": "https://account.zenmate.com/ru_RU/signup?utm_source=guest-alert-trial&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "free-alert-pro",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "free",
+          "trialExpired"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "free-alert-pro",
+      "conversionPoint": "extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Get ZenMate Pro for Browsers | 1.99$/mo",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Obtenez ZenMate Pro pour Navigateurs | 1,69 €/mois",
+          "btnText": "Mettez votre abonnement à niveau",
+          "link": "https://zenmate.com/fr/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Hol dir ZenMate Pro für Browser | 1,69 € / Mt.",
+          "btnText": "Jetzt upgraden",
+          "link": "https://zenmate.com/de/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Koop ZenMate Pro voor browsers | € 1,69/maand",
+          "btnText": "Upgrade nu",
+          "link": "https://zenmate.com/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "ZenMate Pro 구입 | ₩2,399/1개월",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Obtener ZenMate Pro para navegadores | 1,69 € al mes",
+          "btnText": "Actualizar ahora",
+          "link": "https://zenmate.com/es/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Tarayıcılar için ZenMate Pro alın | ₺14.99/ay",
+          "btnText": "Şimdi Yükselt",
+          "link": "https://zenmate.com/tr/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Приобрести ZenMate Pro для браузеров | 149 ₽/мес.",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order-pro?utm_source=free-alert-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "trial-alert-pro",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "trial"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "trial-alert-pro",
+      "conversionPoint": "extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Get ZenMate Pro for Browsers | 1.99$/mo",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Obtenez ZenMate Pro pour Navigateurs | 1,69 €/mois",
+          "btnText": "Mettez votre abonnement à niveau",
+          "link": "https://zenmate.com/fr/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Hol dir ZenMate Pro für Browser | 1,69 € / Mt.",
+          "btnText": "Jetzt upgraden",
+          "link": "https://zenmate.com/de/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Koop ZenMate Pro voor browsers | € 1,69/maand",
+          "btnText": "Upgrade nu",
+          "link": "https://zenmate.com/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "ZenMate Pro 구입 | ₩2,399/1개월",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Obtener ZenMate Pro para navegadores | 1,69 € al mes",
+          "btnText": "Actualizar ahora",
+          "link": "https://zenmate.com/es/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Tarayıcılar için ZenMate Pro alın | ₺14.99/ay",
+          "btnText": "Şimdi Yükselt",
+          "link": "https://zenmate.com/tr/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Приобрести ZenMate Pro для браузеров | 149 ₽/мес.",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order-pro?utm_source=trial-alert-pro&utm_medium=extension"
+        }
+      }
+    },
+    {
+      "name": "pro-alert-ultimate",
+      "settings": {
+        "env": [
+          "production",
+          "dev"
+        ],
+        "subscription": [
+          "pro"
+        ],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2021-12-31",
+        "triggerCampaignCount": 1,
+        "dailyCap": 1
+      },
+      "campaign": "summer-sale",
+      "conversionPoint": "extension",
+      "content": {
+        "en": {
+          "title": "ZenMate VPN",
+          "message": "Go Zen this summer: Get 6 extra months & access on unlimited devices",
+          "btnText": "Upgrade Now",
+          "link": "https://zenmate.com/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "fr": {
+          "title": "ZenMate VPN",
+          "message": "Cet été, optez pour la Zénitude : Obtenez 6 mois extra et un accès sur un nombre illimité d’appareils",
+          "btnText": "Mettez votre abonnement à niveau",
+          "link": "https://zenmate.com/fr/acheter?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "de": {
+          "title": "ZenMate VPN",
+          "message": "Werde diesen Sommer Zen: Hol dir 6 Extra-Monate & Zugriff mit unbegrenzt vielen Geräten",
+          "btnText": "Jetzt upgraden",
+          "link": "https://zenmate.com/de/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "nl": {
+          "title": "ZenMate VPN",
+          "message": "Zen in de zomer: krijg 6 extra maanden en toegang op een onbeperkt aantal apparaten",
+          "btnText": "Upgrade nu",
+          "link": "https://zenmate.com/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "ko": {
+          "title": "ZenMate VPN",
+          "message": "이번 여름은 Zen을 선택하세요. 6개월 추가 이용 혜택과 무제한 장치 이용 특권",
+          "btnText": "지금 업그레이드",
+          "link": "https://zenmate.com/ko/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "es": {
+          "title": "ZenMate VPN",
+          "message": "Este verano, modo Zen: obtenga 6 meses adicionales y acceso en dispositivos ilimitados",
+          "btnText": "Actualizar ahora",
+          "link": "https://zenmate.com/es/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "tr": {
+          "title": "ZenMate VPN",
+          "message": "Bu yaz Zen olun: Ekstra 6 ay alın ve sınırsız sayıda cihazdan erişin",
+          "btnText": "Şimdi Yükselt",
+          "link": "https://zenmate.com/tr/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        },
+        "ru": {
+          "title": "ZenMate VPN",
+          "message": "Переходите к Zen этим летом: получите дополнительно 6 бесплатных месяцев и доступ с любого количества устройств",
+          "btnText": "Перейти сейчас",
+          "link": "https://zenmate.com/ru/order?utm_source=pro-alert-ultimate&utm_medium=extension"
+        }
+      }
+    }
+  ]
+}�R�Ω      a^*a^*C}�af�o   T    :https://zenmate-extension.s3-eu-west-1.amazonaws.com/cms/default.json?1633561100670 necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANgFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAi8MIIIuDCCB6CgAwIBAgIQD3UYshHwNqb/nj4DbDuQ3zANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSMwIQYDVQQDExpEaWdpQ2VydCBCYWx0aW1vcmUgQ0EtMiBHMjAeFw0yMTA2MjMwMDAwMDBaFw0yMjA3MjQyMzU5NTlaMHYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdTZWF0dGxlMRkwFwYDVQQKExBBbWF6b24uY29tLCBJbmMuMSUwIwYDVQQDDBwqLnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeb2uJVPmN1ZNF3DOBaZ/SJzYdz7tHFc6RjJrs8VbkO9xuXAkd0sfoC5en+QB3VmTICPI3R82VZ2k+yMBJJsxyO8s4sq5fRswgQ8q4SlH0Pe9xWdawDWKoFc5my629Ri7ow9ool8uf1vy/gJXhq16dBslsUZ6I6ih6zHu+mYMZruOL0Idcs6ENPY3sUMwcm2euAl3bZUFTt+yNOtiy78zqT45eJkGbyV58cs65bPp54HMdV1O3UovhFw+h869jg//fmrg5YxKC4D6EOrTvF7xsV06OcUNbyCiteCAb6lsLRc9B1jYX+AXXjfrSWVYitWUQRBmDg8kMY0jqzgXkOfDQIDAQABo4IFUjCCBU4wHwYDVR0jBBgwFoAUwBKyKHRoRmfpcCV0GgBFWwZ9XEQwHQYDVR0OBBYEFIonzK32XJi6vF3u5lgtABqiFtv5MIICDAYDVR0RBIICAzCCAf+CGnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tghwqLnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tghpzMy5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIcKi5zMy5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIkczMuZHVhbHN0YWNrLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgiYqLnMzLmR1YWxzdGFjay5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYISKi5zMy5hbWF6b25hd3MuY29tgiQqLnMzLWNvbnRyb2wuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CInMzLWNvbnRyb2wuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CLiouczMtY29udHJvbC5kdWFsc3RhY2suZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CLHMzLWNvbnRyb2wuZHVhbHN0YWNrLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgigqLnMzLWFjY2Vzc3BvaW50LmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgjIqLnMzLWFjY2Vzc3BvaW50LmR1YWxzdGFjay5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIhKi5zMy5ldS13ZXN0LTEudnBjZS5hbWF6b25hd3MuY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgYEGA1UdHwR6MHgwOqA4oDaGNGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEJhbHRpbW9yZUNBLTJHMi5jcmwwOqA4oDaGNGh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEJhbHRpbW9yZUNBLTJHMi5jcmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMHkGCCsGAQUFBwEBBG0wazAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEMGCCsGAQUFBzAChjdodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRCYWx0aW1vcmVDQS0yRzIuY3J0MAwGA1UdEwEB/wQCMAAwggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoBaAB1ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABejrbNgwAAAQDAEYwRAIgEdz7P3dnnadMxQP0NfE54WHYR/GGRY+Ej9+Jlj2aTCgCIGZ8vbYZWoeUxkUmSRPO39ZqfuruH6GfJeJGoLiYEI+iAHYAIkVFB1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIAAAF6Ots2IQAABAMARzBFAiEAy5OK/6xzd0OFRd+JXWqATIclv+X6icWhLCQ0Gnb+JjUCIBiz0O8xmFziJNlsmRpp1WArXt4+cRN0cz2ahZTRkPt5AHcAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF6Ots2XAAABAMASDBGAiEAvwb71vfKSS/W0vTvi+lK89FPUjgldKxGDb5/soX0YfcCIQDmHS3Yc/yV73ObFVpAkaHdyVxZLqzdUpkXje/h1pLC/jANBgkqhkiG9w0BAQsFAAOCAQEAO5BfhO7KzpnszMB9iq2jy81Er+EFKZ1B61Mo3mb/2rbtl3RNEfWCUEYUbSkWmwsPsDJL+KLd1f7EqEt8xP2EzIPKrxT+V4aikaPBd02p8dYpKcH8HMAOQE629JsJzR/4zbYz2/GYIhg44vqBBHY+l8RVhF+n0jv4VXbAkryIxag0NU+wgIvPBAYq3lKbkdcMJCeDgDFN/RqcHnV6EX2OYlLAUbsnez7t9Uika/Ps08SEFSIZok2DLwP6Sa9wPxR6Z2Kw01GyJT6Relbj86S7VGuzNeuIP9/axemPJrLR2n5omeMQ+OVVXAEodm8cARmKHnfjxuS41WfnXSc8WRuRQsAvAAMAAAAAAQEAAAAAAAAEUDI1NgAAABBSU0EtUEtDUzEtU0hBMjU2AANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAi8MIIIuDCCB6CgAwIBAgIQD3UYshHwNqb/nj4DbDuQ3zANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSMwIQYDVQQDExpEaWdpQ2VydCBCYWx0aW1vcmUgQ0EtMiBHMjAeFw0yMTA2MjMwMDAwMDBaFw0yMjA3MjQyMzU5NTlaMHYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdTZWF0dGxlMRkwFwYDVQQKExBBbWF6b24uY29tLCBJbmMuMSUwIwYDVQQDDBwqLnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeb2uJVPmN1ZNF3DOBaZ/SJzYdz7tHFc6RjJrs8VbkO9xuXAkd0sfoC5en+QB3VmTICPI3R82VZ2k+yMBJJsxyO8s4sq5fRswgQ8q4SlH0Pe9xWdawDWKoFc5my629Ri7ow9ool8uf1vy/gJXhq16dBslsUZ6I6ih6zHu+mYMZruOL0Idcs6ENPY3sUMwcm2euAl3bZUFTt+yNOtiy78zqT45eJkGbyV58cs65bPp54HMdV1O3UovhFw+h869jg//fmrg5YxKC4D6EOrTvF7xsV06OcUNbyCiteCAb6lsLRc9B1jYX+AXXjfrSWVYitWUQRBmDg8kMY0jqzgXkOfDQIDAQABo4IFUjCCBU4wHwYDVR0jBBgwFoAUwBKyKHRoRmfpcCV0GgBFWwZ9XEQwHQYDVR0OBBYEFIonzK32XJi6vF3u5lgtABqiFtv5MIICDAYDVR0RBIICAzCCAf+CGnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tghwqLnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tghpzMy5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIcKi5zMy5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIkczMuZHVhbHN0YWNrLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgiYqLnMzLmR1YWxzdGFjay5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYISKi5zMy5hbWF6b25hd3MuY29tgiQqLnMzLWNvbnRyb2wuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CInMzLWNvbnRyb2wuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CLiouczMtY29udHJvbC5kdWFsc3RhY2suZXUtd2VzdC0xLmFtYXpvbmF3cy5jb22CLHMzLWNvbnRyb2wuZHVhbHN0YWNrLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgigqLnMzLWFjY2Vzc3BvaW50LmV1LXdlc3QtMS5hbWF6b25hd3MuY29tgjIqLnMzLWFjY2Vzc3BvaW50LmR1YWxzdGFjay5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbYIhKi5zMy5ldS13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 request-method GET response-head HTTP/1.1 200 OK
+x-amz-id-2: 2XaovP+DEpNLxGB7ufybfJwQQxCKateylNRNy16X4GUaACWtSKeBoTnzb/p59X+0Q3Oz5XDMNrQ=
+x-amz-request-id: KEF6R998FQ60JH1X
+Date: Wed, 06 Oct 2021 22:58:23 GMT
+Last-Modified: Wed, 04 Aug 2021 11:29:53 GMT
+ETag: "dd19c66f0dafc6e2b87eaea20e191f9a"
+Accept-Ranges: bytes
+Content-Type: application/json
+Server: AmazonS3
+Content-Length: 94273
+ original-response-headers x-amz-id-2: 2XaovP+DEpNLxGB7ufybfJwQQxCKateylNRNy16X4GUaACWtSKeBoTnzb/p59X+0Q3Oz5XDMNrQ=
+x-amz-request-id: KEF6R998FQ60JH1X
+Date: Wed, 06 Oct 2021 22:58:23 GMT
+Last-Modified: Wed, 04 Aug 2021 11:29:53 GMT
+ETag: "dd19c66f0dafc6e2b87eaea20e191f9a"
+Accept-Ranges: bytes
+Content-Type: application/json
+Server: AmazonS3
+Content-Length: 94273
+ ctid 1 net-response-time-onstart 896 net-response-time-onstop 1274  pA

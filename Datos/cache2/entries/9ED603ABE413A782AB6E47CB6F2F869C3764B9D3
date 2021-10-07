@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="csrf-token" content="lqTI5x71bJLTSQUBnGkiyJZaR62e2G7HPGczOBly">
+
+<title>Presearch</title>
+
+
+
+<meta name="description" content="Presearch is a decentralized search engine, powered by the community.">
+
+<meta property="og:title" content="Presearch">
+<meta property="og:description" content="Presearch is a decentralized search engine, powered by the community.">
+<meta property="og:image" content="https://presearch.org/images/sharing/sharingimage.png">
+<meta property="og:url" content="http://presearch.org/external-login">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Presearch">
+<meta name="twitter:image:alt" content="Presearch">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@presearchnews">
+<meta name="twitter:url" content="http://presearch.org/external-login">
+<meta name="twitter:title" content="Presearch">
+<meta name="twitter:description" content="Presearch is a decentralized search engine, powered by the community.">
+<meta name="twitter:image" content="https://presearch.org/images/sharing/sharingimage.png">
+
+<link rel="icon" type="image/x-icon" href="https://presearch.org/favicon.ico">
+<link rel="icon" type="image/png" href="https://presearch.org/favicon.png">
+
+<script>
+    if (document.cookie.includes("screenMode=dark")|| (!document.cookie.includes("screenMode") && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark', 'tw-dark');
+    } else {
+        document.documentElement.classList.remove('dark', 'tw-dark');
+    }
+</script>
+
+        <style>
+        body {
+            background: #0079da;
+            height: auto !important;
+        }
+        .login-box {
+            margin: 0 auto !important;
+            position: relative !important;
+            top: 20px !important;
+        }
+    </style>
+
+            <link rel="stylesheet" href="/css/app.css?id=8e03e90d98a339b7e38f">
+        <link rel="stylesheet" href="/css/tailwind.css?id=032d5716b829005a094a">
+</head>
+<body class="blank auth-external-login dark:tw-bg-dark-700">
+              <div class="login-box dark:tw-bg-dark-900">
+            <div class="text-center login-logo tw-flex tw-justify-center">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 370"><defs><style>.cls-1{fill:#2d8eff;}</style></defs><title>presearch-logo-border-blue-transparent</title><path class="cls-1" d="M135.17,225.38h32.71a63,63,0,0,0,27.06-6,68,68,0,0,0,21-16.16,75,75,0,0,0,13.33-23.42,76.44,76.44,0,0,0,4.84-27.06,66.16,66.16,0,0,0-5.25-26.25,80.79,80.79,0,0,0-14.13-23,70.91,70.91,0,0,0-21.41-16.55,58,58,0,0,0-27-6.47h-86V289.19h54.92Zm0-94.5H163a15,15,0,0,1,10.1,4.85c3.23,3.23,5.25,8.89,5.25,17.77s-2,14.13-4.85,17c-2.42,2.83-5.65,4.85-9.28,4.85H135.17Z"/><path class="cls-1" d="M9.44,30.1V339.9A20.1,20.1,0,0,0,29.54,360h309.8a20.1,20.1,0,0,0,20.1-20.1V30.1A20.1,20.1,0,0,0,339.34,10H29.54A20.1,20.1,0,0,0,9.44,30.1ZM298.11,318.77H70.35a20.1,20.1,0,0,1-20.11-20.1V70.91a20.1,20.1,0,0,1,20.11-20.1H298.11a20.1,20.1,0,0,1,20.1,20.1V298.67A20.1,20.1,0,0,1,298.11,318.77Z"/><rect class="cls-1" x="159.8" y="250.02" width="128.83" height="39.58"/></svg>
+
+            </div>
+            <div class="welcome">
+                <h3 class="text-center tw-text-lg tw-mt-5 dark:tw-text-gray-300">Login with Presearch</h3>
+            </div>
+            <div class="tab-content">
+                <input type="hidden" name="redirect_url" value="https://presearch.org/external-login" />
+                <div id="login-form" class="tab-pane active animated flipInX">
+                    <form method="POST" action="https://presearch.org/login">
+    <input type="hidden" name="_token" value="lqTI5x71bJLTSQUBnGkiyJZaR62e2G7HPGczOBly">
+    <input type="hidden" name="login_form" value="1" />
+
+    <div class="form-group ">
+
+        <input type="email" class="form-control dark:focus:tw-shadow-none" placeholder="Email" name="email" value="" required autofocus>
+
+            </div>
+
+    <div class="form-group ">
+      <div class="password-lock ">
+        <input type="password" class="form-control dark:focus:tw-shadow-none" placeholder="Password" name="password" required>
+        <i class="fa fa-lg fa-lock pull-right blue tw-absolute tw-top-2 tw-right-2 dark:text-dark-800"></i>
+      </div>
+
+          </div>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="checkbox blue text-left">
+            <label>
+              <input type="checkbox" name="remember" value="1" > Remember Me
+            </label>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="checkbox blue text-right">
+            <a class="blue pull-right" href="#forgot-password-form" data-toggle="tab">
+              Forgot Password?
+            </a>
+          </div>
+        </div>
+      </div>
+
+              <div class="form-group text-center recaptcha-holder">
+            <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+        </div>
+      
+      <div class="form-group">
+        <button type="submit" class="btn btn-block tw-bg-yellow-600 tw-text-white hover:tw-text-white hover:tw-opacity-60 tw-transition">
+            Login
+        </button>
+      </div>
+    </div>
+
+    
+
+</form>
+
+<div class="text-center">
+  <a href="#register-form" data-toggle="tab" class="register-form-show btn btn-block tw-bg-presearch-blue tw-text-white hover:tw-text-white dark:tw-bg-blue-600 hover:tw-opacity-70 tw-transition">
+    Create Account
+  </a>
+</div>
+                </div>
+                <div id="register-form" class="tab-pane  animated flipInX">
+                    <form method="POST" action="https://presearch.org/register">
+  <input type="hidden" name="_token" value="lqTI5x71bJLTSQUBnGkiyJZaR62e2G7HPGczOBly">
+  <input type="hidden" name="register_form" value="1" />
+
+  <input type="hidden" name="code"
+    value="" />
+
+  <input type="hidden" name="portal_referrer_id"
+    value="0" />
+
+  <div class="form-group ">
+    <input type="email" class="form-control dark:focus:tw-shadow-none" name="email" placeholder="Email Address" value="" required>
+      </div>
+
+  <div class="form-group ">
+    <input placeholder="Password" type="password" class="form-control dark:focus:tw-shadow-none" name="password" minlength="8" required>
+
+      </div>
+
+  <div class="form-group">
+    <input id="password-confirm" placeholder="Confirm Password" type="password" class="form-control dark:focus:tw-shadow-none" name="password_confirmation" minlength="8" required>
+  </div>
+
+  <div class="form-group text-center">
+    <label class="checkbox-inline">
+      <input type="checkbox" name="agreed_to_terms" value="1" required><small>I have read and agree to the <a class="dark:tw-text-blue-400" href="https://presearch.org/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</small></a>
+    </label>
+  </div>
+
+          <div class="form-group text-center recaptcha-holder">
+          <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+      </div>
+    
+  <div class="form-group">
+    <button type="submit" class="btn btn-lg btn-block tw-bg-yellow-600 tw-text-white hover:tw-text-white hover:tw-opacity-60 tw-transition">
+        Sign Up Now
+    </button>
+  </div>
+</form>
+
+<div class="text-center">
+  Have an account? <a href="#login-form" data-toggle="tab" class="login-form-show blue dark:tw-text-blue-400 hover:tw-opacity-60 tw-transition">Login Here</a>
+</div>
+                </div>
+                <div id="2fa-form" class="tab-pane  animated flipInX">
+                    <form method="POST" action="https://presearch.org/2fa/validate">
+  <input type="hidden" name="_token" value="lqTI5x71bJLTSQUBnGkiyJZaR62e2G7HPGczOBly">
+  <input type="hidden" name="2fa_form" value="1" />
+
+  
+  <div class="form-group text-center">
+    Please open your authenticator app and enter the current one-time password below:
+  </div>
+
+  <div class="form-group text-center">
+    <input type="number" class="form-control" name="totp">
+  </div>
+
+  <div class="form-group text-center">
+    <button type="submit" class="btn btn-block btn-primary">
+      Validate
+    </button>
+  </div>
+</form>
+
+<div class="text-center">
+  <a href="#login-form" data-toggle="tab" class="login-form-show">Back To Login Form</a>
+</div>
+                </div>
+                <div id="forgot-password-form" class="tab-pane  animated flipInX">
+                    <form class="form-horizontal" method="POST" action="https://presearch.org/password/email">
+    <input type="hidden" name="_token" value="lqTI5x71bJLTSQUBnGkiyJZaR62e2G7HPGczOBly">
+    <input type="hidden" name="forgot-password_form" value="1" />
+
+    <div class="form-group text-center">
+      To reset your password enter your email address below:
+    </div>
+
+    <div class="form-group">
+      <input id="email" type="email" class="form-control" name="email" value="" required>
+
+          </div>
+
+            <div class="form-group text-center recaptcha-holder">
+            <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+        </div>
+    
+    <div class="form-group tw-flex tw-justify-center">
+      <button type="submit" class="btn tw-bg-yellow-600 hover:tw-text-white hover:tw-opacity-60 tw-transition">
+        Send Password Reset Link
+      </button>
+    </div>
+</form>
+
+<div class="text-center">
+  <a href="#login-form" data-toggle="tab" class="login-form-show dark:tw-text-blue-400 hover:tw-opacity-60 tw-transition">Back To Login Form</a>
+</div>
+                </div>
+            </div>
+        </div>
+    
+              <script type="text/javascript" src="/js/app.js?id=cfb9c3cd8f0aa12e1e8c"></script>
+        <script type="text/javascript" src="/js/login.js?id=285fec5e515b84bc8dd2"></script>
+    </body>
+</html>
+<!-- EOF -->w5öe·@      a\ú»a\ú¼C|­à       Q    O^partitionKey=%28https%2Cpresearch.org%29,:https://presearch.org/external-login? strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANgFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAV6MIIFdjCCBF6gAwIBAgIQD3fnnvVbQFcN7VOwEd+ACDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0yMDEyMDIwMDAwMDBaFw0yMTEyMzEyMzU5NTlaMBgxFjAUBgNVBAMTDXByZXNlYXJjaC5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa8EdtUvBhwgib0c0CVUrDFwDdDxmEn2Rc3/xM47Q6+zvkw7/ZqCaVuJcA+eMP+AX0G6ZHb9dVVeSfzXUPOc+HeE7iscvK4NubHcyislv/4NLWSID1qfO8uCwGsho35j7mBrPLReD+j/G+PQjeIgyYPulGgIrlg6u1dZGUPxlPt8b1+ufBW/gISgZYAA5AKiHdUEkag1dgC1iefn9yUHp9kbpy1dLaQUVNbriHMyC3+bcBONTBzaAZr1BZP6t57ADgz3uiGjlnKXIorZF3rFGFAp3YC9yy4w8cXzosusd17OjlBZlWhAA21UOKfc1zisRxUR4lAEFA643n2TP0HtkrAgMBAAGjggKMMIICiDAfBgNVHSMEGDAWgBRZpGYGUqB7lZI8o5QHJ5Z0W/k90DAdBgNVHQ4EFgQUuaOA2E8t8KaPtwiRmoFKCBu1VoQwKQYDVR0RBCIwIIINcHJlc2VhcmNoLm9yZ4IPKi5wcmVzZWFyY2gub3JnMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMCAGA1UdIAQZMBcwCwYJYIZIAYb9bAECMAgGBmeBDAECATB1BggrBgEFBQcBAQRpMGcwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwLnNjYTFiLmFtYXpvbnRydXN0LmNvbTA2BggrBgEFBQcwAoYqaHR0cDovL2NydC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3J0MAwGA1UdEwEB/wQCMAAwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXYkuL4oAAAEAwBIMEYCIQDbbT9Zptu01xa+l0CGtXaJaJkTvdbxtzrnHLW0TacoJgIhAPTNEnIRI8LUqTv09HqDXTTwS+5csokvIaf3l4oHW8k2AHcAXNxDkv7mq0VEsV6a1FbmEDf71fpH3KFzlLJe5vbHDsoAAAF2JLi+gAAABAMASDBGAiEAtVRypla/GI/E1/c+U0GhaIhIeMFrNRkXBlyn1+IFxuQCIQDqJ+X7FlFPBqtw48TXp8f4nPYIOWKaBHMLVTvSAyJ0QDANBgkqhkiG9w0BAQsFAAOCAQEAg2vbWr1ACkVIXp0DGhZRvBtOxApbl/0ifVh3oLwdnAQKaUC87EWas00DJGJvR2fuRbtjyCShH0btCQffxi6mTXwah4dNBZzxhLu9DcdEk8rHZ7nvRndujULTJHbMHcgxMrgbtYErG4h0OO3aqUMoQq5tmsX3LOyTMy1nBHRTJysrrx6IgS6hmmNUtEV4JDCHmvn/s7uMAVUUXtVgd4/b8/qyJCljeYMM1Ma/Ilvr0chDmAxZOWyRUQiw1OGynjtbAGoY8pNF6QTJkxLw/jen+rxeXtO0sf3BtvZenO8UgKEJa3pq4Z7FGtGOeGiavwbhQLAwRp2jGhxIMVYPSGuTNxMBAAQAAAAAAQEAAAAAAAAGeDI1NTE5AAAADlJTQS1QU1MtU0hBMjU2AANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAV6MIIFdjCCBF6gAwIBAgIQD3fnnvVbQFcN7VOwEd+ACDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0yMDEyMDIwMDAwMDBaFw0yMTEyMzEyMzU5NTlaMBgxFjAUBgNVBAMTDXByZXNlYXJjaC5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDa8EdtUvBhwgib0c0CVUrDFwDdDxmEn2Rc3/xM47Q6+zvkw7/ZqCaVuJcA+eMP+AX0G6ZHb9dVVeSfzXUPOc+HeE7iscvK4NubHcyislv/4NLWSID1qfO8uCwGsho35j7mBrPLReD+j/G+PQjeIgyYPulGgIrlg6u1dZGUPxlPt8b1+ufBW/gISgZYAA5AKiHdUEkag1dgC1iefn9yUHp9kbpy1dLaQUVNbriHMyC3+bcBONTBzaAZr1BZP6t57ADgz3uiGjlnKXIorZF3rFGFAp3YC9yy4w8cXzosusd17OjlBZlWhAA21UOKfc1zisRxUR4lAEFA643n2TP0HtkrAgMBAAGjggKMMIICiDAfBgNVHSMEGDAWgBRZpGYGUqB7lZI8o5QHJ5Z0W/k90DAdBgNVHQ4EFgQUuaOA2E8t8KaPtwiRmoFKCBu1VoQwKQYDVR0RBCIwIIINcHJlc2VhcmNoLm9yZ4IPKi5wcmVzZWFyY2gub3JnMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMCAGA1UdIAQZMBcwCwYJYIZIAYb9bAECMAgGBmeBDAECATB1BggrBgEFBQcBAQRpMGcwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwLnNjYTFiLmFtYXpvbnRydXN0LmNvbTA2BggrBgEFBQcwAoYqaHR0cDovL2NydC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3J0MAwGA1UdEwEB/wQCMAAwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXYkuL4oAAAEAwBIMEYCIQDbbT9Zptu01xa+l0CGtXaJaJkTvdbxtzrnHLW0TacoJgIhAPTNEnIRI8LUqTv09HqDXTTwS+5csokvIaf3l4oHW8k2AHcAXNxDkv7mq0VEsV6a1FbmEDf71fpH3KFzlLJe5vbHDsoAAAF2JLi+gAAABAMASDBGAiEAtVRypla/GI/E1/c+U0GhaIhIeMFrNRkXBlyn1+IFxuQCIQDqJ+X7FlFPBqtw48TXp8f4nPYIOWKaBHMLVTvSAyJ0QDANBgkqhkiG9w0BAQsFAAOCAQEAg2vbWr1ACkVIXp0DGhZRvBtOxApbl/0ifVh3oLwdnAQKaUC87EWas00DJGJvR2fuRbtjyCShH0btCQffxi6mTXwah4dNBZzxhLu9DcdEk8rHZ7nvRndujULTJHbMHcgxMrgbtYErG4h0OO3aqUMoQq5tmsX3LOyTMy1nBHRTJysrrx6IgS6hmmNUtEV4JDCHmvn/s7uMAVUUXtVgd4/b8/qyJCljeYMM1Ma/Ilvr0chDmAxZOWyRUQiw1OGynjtbAGoY8pNF6QTJkxLw/jen+rxeXtO0sf3BtvZenO8UgKEJa3pq4Z7FGtGOeGiavwbhQLAwRp2jGhxIMVYPSGuTN2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABE0wggRJMIIDMaADAgECAhMGe1BcKmUnvB6+LaLRmZjtuJssMA0GCSqGSIb3DQEBCwUAMDkxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xGTAXBgNVBAMTEEFtYXpvbiBSb290IENBIDEwHhcNMTUxMDIxMjIyNDM0WhcNNDAxMDIxMjIyNDM0WjBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJOFmfdzrxqyDda7DowsB3m0RLoEihIzOgpwbluU9Wj6wM5Gsx3h/YBudlwzM9rjePjA3GGmW3LppQqThPWp70E7AoWPArrObHEtVijtsdWJew+Unqo4ykWB7luUM/7XzH4HboDSmKJA64+R/IPJ5HjFCCF+PrpijX1X56ZTedrN++kUD5E7PpahWYHnH4XalXzF4o1Hu7prMN1TlhVfVNrCmubFELX5awBibPqo/7PwCsMhMLYUxXLZ/DQiMo60Rdz9V+a1MVyHn4B8ZgwYyqq8notxeICGoblMj4OvRG0zzyT7xdQEJ5DwgYq4A1ovtOIi0pljErUwy5Mm1X0huUCAwEAAaOCATswggE3MBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdDgQWBBRZpGYGUqB7lZI8o5QHJ5Z0W/k90DAfBgNVHSMEGDAWgBSEGMyFNOy8DJSULghZnMeyEE4KCDB7BggrBgEFBQcBAQRvMG0wLwYIKwYBBQUHMAGGI2h0dHA6Ly9vY3NwLnJvb3RjYTEuYW1hem9udHJ1c3QuY29tMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsLnJvb3RjYTEuYW1hem9udHJ1c3QuY29tL3Jvb3RjYTEuY2VyMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9jcmwucm9vdGNhMS5hbWF6b250cnVzdC5jb20vcm9vdGNhMS5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwDQYJKoZIhvcNAQELBQADggEBAB+xoQrCfXsOMBuL8OJ7R62f48SB9j8jqzw0taTEYA5R9baj69WjA0BFFWNogZ2uEB95YeRkjqrakjTH8glibKaZxZplpb/ZHsO9AO3EKQWRVrFR4e8Q2bojKpWF/pDmg3XaQNKsmjPPHsju0eOEErtXlehPJLg1TgSFLLMaCPbHprEN3WEdGNuUSknzQuiJeWZQPOm60FfI7maRyumVxW+UgmJaYqOsOfbPMrENfmfC+SySkiNiUlytC7iIJfX9jBnXI2oX0uvKOWKWmEcIAKIduEhGcZ83yPwosNWZbJNgyTxX7qPQsjj7jMWHa6moYxAcvdUVUVYF6Tq8INaEH9tmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAANFMIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsFADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTELMAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJvb3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXjca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qwIFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQmjgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUAA4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDIU5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUsN+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vvo/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpyrqXRfboQnoZsG4q5WTP468SQvvG5AAAAAQAAAAJoMgABAA== request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=UTF-8
+date: Wed, 06 Oct 2021 01:24:11 GMT
+server: Apache/2.4.48 (Amazon) OpenSSL/1.0.2k-fips PHP/7.3.29
+x-powered-by: PHP/7.3.29
+cache-control: no-cache, private
+content-security-policy: default-src *.google.com *.youtube-nocookie.com *.youtube.com *.presearch.org *.presearch-preview.org; base-uri 'none'; connect-src 'self' *.zdassets.com wss://*.zopim.com engine-api.presearch.org wss://engine-api.presearch.org *.presearch.org wss://*.presearch.org keywords.presearch.org nodes.presearch.org marketplace.presearch.org; font-src 'self' data: *.zdassets.com *.zopim.com *.typekit.net use.fontawesome.com fonts.gstatic.com; form-action 'self' *; frame-ancestors 'none'; img-src 'self' https://dfa8d4pmuymeu.cloudfront.net http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org pre-preview-sponsor-ads.s3.us-east-2.amazonaws.com *.zopim.com *.wikimedia.org data: i.ytimg.com; media-src 'self' http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org http://marketplace.presearch.org https://marketplace.presearch.org http://marketplace.presearch-preview.org https://marketplace.presearch-preview.org; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.zdassets.com *.zopim.com *.google.com *.gstatic.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' *.typekit.net use.fontawesome.com www.gstatic.com; worker-src *.google.com *.youtube.com; upgrade-insecure-requests
+feature-policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; display-capture 'self'; document-domain *; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self'
+strict-transport-security: max-age=15552000; preload
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: sameorigin
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer
+x-edge-origin-shield-skipped: 0
+x-cache: Miss from cloudfront
+via: 1.1 2c193b9a56f92116fe7fc36cac14476d.cloudfront.net (CloudFront)
+x-amz-cf-pop: QRO50-C1
+x-amz-cf-id: -L7ABGfrN6I9942TGZzyv1QZzBk3Qvs2W07HgRBE1fYr6VyiH2KF-w==
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Wed, 06 Oct 2021 01:24:11 GMT
+server: Apache/2.4.48 (Amazon) OpenSSL/1.0.2k-fips PHP/7.3.29
+x-powered-by: PHP/7.3.29
+cache-control: no-cache, private
+content-security-policy: default-src *.google.com *.youtube-nocookie.com *.youtube.com *.presearch.org *.presearch-preview.org; base-uri 'none'; connect-src 'self' *.zdassets.com wss://*.zopim.com engine-api.presearch.org wss://engine-api.presearch.org *.presearch.org wss://*.presearch.org keywords.presearch.org nodes.presearch.org marketplace.presearch.org; font-src 'self' data: *.zdassets.com *.zopim.com *.typekit.net use.fontawesome.com fonts.gstatic.com; form-action 'self' *; frame-ancestors 'none'; img-src 'self' https://dfa8d4pmuymeu.cloudfront.net http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org pre-preview-sponsor-ads.s3.us-east-2.amazonaws.com *.zopim.com *.wikimedia.org data: i.ytimg.com; media-src 'self' http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org http://marketplace.presearch.org https://marketplace.presearch.org http://marketplace.presearch-preview.org https://marketplace.presearch-preview.org; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.zdassets.com *.zopim.com *.google.com *.gstatic.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' *.typekit.net use.fontawesome.com www.gstatic.com; worker-src *.google.com *.youtube.com; upgrade-insecure-requests
+feature-policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; display-capture 'self'; document-domain *; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self'
+strict-transport-security: max-age=15552000; preload
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: sameorigin
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer
+set-cookie: XSRF-TOKEN=eyJpdiI6IlM4OTBGYzZaVlhLSGhnZGUzUHZNZWc9PSIsInZhbHVlIjoiWmE4ZDZWa3VFSU5NYUVlUTI4cFlzVk5SeGVZelwvQnlLVVpwZXcxc1VEbTlCK1cwTUhvK1FkV2hxcTlLOXV6WFUiLCJtYWMiOiJiOTRjMWRmNjM3YmIzOWViM2M4Yjk1OTllYWQ1ZjY2NGFjODM4YWU5ZWQzZmQ1N2EyYjQ5ODJlZDBjMzEwNGUzIn0%3D; expires=Wed, 13-Oct-2021 01:24:11 GMT; Max-Age=604800; path=/; domain=.presearch.org; secure; samesite=none
+set-cookie: presearch_session=eyJpdiI6IlBLN2VXVVhcL1R1dVViSnpqTkN3OWdBPT0iLCJ2YWx1ZSI6IlFpQUpwRHVkeU9FdzdWaFFtS1B5a0hoWjNGR2ZiWmUrSXppRitiQ0JXZ2ZmYlQzTjJaUjZ2V29OM1hPTjdvemJlYTNnbmg4SzZicGY5M2dVQlY4bVdZK0Q4Y1JGT3ZwMnErTWtIMlVtMFpvbTRnRXJHbkFlYmRxUDlmWUpuendpIiwibWFjIjoiMzhmNzMzYjdmYWU3ZmM1MGZkOTE4ODJmNDM1ODA4Yjg5NTNkZmM0ZGY0ZDc1ZWNjMWVlMmVlZWNkYTEzMTI5NSJ9; expires=Wed, 13-Oct-2021 01:24:11 GMT; Max-Age=604800; path=/; domain=.presearch.org; secure; httponly; samesite=none
+x-edge-origin-shield-skipped: 0
+x-cache: Miss from cloudfront
+via: 1.1 2c193b9a56f92116fe7fc36cac14476d.cloudfront.net (CloudFront)
+x-amz-cf-pop: QRO50-C1
+x-amz-cf-id: -L7ABGfrN6I9942TGZzyv1QZzBk3Qvs2W07HgRBE1fYr6VyiH2KF-w==
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 586 net-response-time-onstop 610   5–

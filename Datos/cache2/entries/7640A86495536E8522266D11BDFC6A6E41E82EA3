@@ -1,0 +1,554 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="csrf-token" content="23YKM4gVnHvOH7sWlowcFEpdGD0JV7aqqeFBVmZA">
+
+<title>Presearch</title>
+
+
+
+<meta name="description" content="Presearch is a decentralized search engine, powered by the community.">
+
+<meta property="og:title" content="Presearch">
+<meta property="og:description" content="Presearch is a decentralized search engine, powered by the community.">
+<meta property="og:image" content="https://presearch.org/images/sharing/sharingimage.png">
+<meta property="og:url" content="http://presearch.org/login">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Presearch">
+<meta name="twitter:image:alt" content="Presearch">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@presearchnews">
+<meta name="twitter:url" content="http://presearch.org/login">
+<meta name="twitter:title" content="Presearch">
+<meta name="twitter:description" content="Presearch is a decentralized search engine, powered by the community.">
+<meta name="twitter:image" content="https://presearch.org/images/sharing/sharingimage.png">
+
+<link rel="icon" type="image/x-icon" href="https://presearch.org/favicon.ico">
+<link rel="icon" type="image/png" href="https://presearch.org/favicon.png">
+
+<script>
+    if (document.cookie.includes("screenMode=dark")|| (!document.cookie.includes("screenMode") && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark', 'tw-dark');
+    } else {
+        document.documentElement.classList.remove('dark', 'tw-dark');
+    }
+</script>
+
+    <link rel="stylesheet" href="/css/tailwind.css?id=032d5716b829005a094a">
+  <link rel="stylesheet" href="/css/app.css?id=8e03e90d98a339b7e38f">
+  <style>
+   body {
+    font-family: "Raleway", sans-serif !important;
+    font-size: 16px;
+   }
+  </style>
+
+  <link rel="stylesheet" href="/css/home.css?id=ef33137c262ee1c327af">
+</head>
+<style>
+.dark body.login, .dark body.register, .dark .login-box {
+background: #1e1e1e;
+}
+.dark .login-box .form-control {
+  background:#2e2e2e;
+  border: 2px solid #191919;
+  color: #f2f2f2;
+}
+.dark .login-box .btn-blue {
+  background: #00489c !important;
+} 
+.dark .login-box .btn-primary {
+  background: #f15b13 !important;
+} 
+.dark .login-box {
+  color: #f0f0f0;
+}
+.dark .form-control:focus {
+  box-shadow: none;
+}
+</style>
+<body class="no-errors login">
+  <div id="wrapper" class="container-fluid">
+
+    <div class="row">
+      <header>
+        <style>
+nav.navbar.navbar-default {
+    background-color:#0079da;
+}
+.dark nav.navbar.navbar-default {
+    background-color:#1e1e1e;
+}
+.dark .navbar .navbar-nav>li>a:hover {
+    color: #fff;
+    opacity: .6;
+}
+.dark .pod .pod-header {
+    background: #191919;   
+}
+.dark .pod .pod-body {
+    background: #2e2e2e;
+}
+</style>
+<nav class="navbar navbar-default">
+    <div class="container-fluid no-gutter">
+        <div class="navbar-header col-sm-1 col-md-3">
+                            <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#main-nav">
+                    <i class="fa fa-lg fa-fw fa-user"></i>
+                </button>
+                        <a class="navbar-brand col-xs-4 col-sm-12" href="https://presearch.org">
+                                    <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 150">
+   <defs>
+      <style>.cls-1{fill:#26445f;}</style>
+   </defs>
+   <title>presearch-io-horizontal-blue</title>
+   <path class="cls-1" d="M64.07,87h9.74a18.77,18.77,0,0,0,8-1.8,20.44,20.44,0,0,0,6.25-4.81,22.35,22.35,0,0,0,4-7,22.82,22.82,0,0,0,1.44-8.06A19.77,19.77,0,0,0,92,57.57a24.22,24.22,0,0,0-4.21-6.85,21.32,21.32,0,0,0-6.37-4.93,17.29,17.29,0,0,0-8-1.92H47.73V106H64.07Zm0-28.13h8.3a4.48,4.48,0,0,1,3,1.45c1,1,1.56,2.64,1.56,5.28s-.6,4.21-1.44,5a3.73,3.73,0,0,1-2.76,1.45H64.07Z"></path>
+   <path class="cls-1" d="M28.74,30.74v88.52A5.74,5.74,0,0,0,34.48,125H123a5.75,5.75,0,0,0,5.75-5.74V30.74A5.75,5.75,0,0,0,123,25H34.48A5.74,5.74,0,0,0,28.74,30.74Zm82.47,82.48H46.14a5.75,5.75,0,0,1-5.75-5.74V42.4a5.75,5.75,0,0,1,5.75-5.74h65.07A5.74,5.74,0,0,1,117,42.4v65.08A5.74,5.74,0,0,1,111.21,113.22Z"></path>
+   <rect class="cls-1" x="71.4" y="94.35" width="38.34" height="11.78"></rect>
+   <path class="cls-1 cls-4" d="M495.69,72a16.54,16.54,0,0,0-1.94-5.15A9.91,9.91,0,0,0,490,63.43a11.61,11.61,0,0,0-5.85-1.26,15.89,15.89,0,0,0-8.59,2.41,17.56,17.56,0,0,0-6.3,6.64V47.4h-6.41v54.29h6.53V78.21a16.84,16.84,0,0,1,1.95-4.13,15.74,15.74,0,0,1,3-3.2,14.77,14.77,0,0,1,3.67-2.18,11.21,11.21,0,0,1,3.89-.8,6.76,6.76,0,0,1,6.07,3Q490,73.79,490,79.81v21.65h6.29v-23A38.61,38.61,0,0,0,495.69,72Z"></path>
+   <path class="cls-1 cls-4" d="M298.92,83.48a19.38,19.38,0,0,0-4.7-2.18c-2-.57-4.12-1.26-6.76-1.83-1.6-.35-3-.8-4.24-1.15a12.94,12.94,0,0,1-2.86-1.14,3.61,3.61,0,0,1-1.6-1.61,5.87,5.87,0,0,1,2.06-7.1A11.16,11.16,0,0,1,286.89,67a19.8,19.8,0,0,1,6.3,1,16.76,16.76,0,0,1,5.5,3.21l3-3.89a18.67,18.67,0,0,0-6.42-3.67,21.87,21.87,0,0,0-8.13-1.37,20.56,20.56,0,0,0-5.84.8,13.9,13.9,0,0,0-4.7,2.29,10.7,10.7,0,0,0-4.35,8.93,11.12,11.12,0,0,0,.69,3.9,6,6,0,0,0,2.4,2.63,17.21,17.21,0,0,0,4.13,2c1.71.57,3.66,1.14,6.07,1.72,1.83.46,3.43.91,4.81,1.26a21.32,21.32,0,0,1,3.43,1.37,7.47,7.47,0,0,1,2.06,1.72,4.49,4.49,0,0,1,.69,2.4A5.21,5.21,0,0,1,294,96a11.74,11.74,0,0,1-6.76,1.72A22.28,22.28,0,0,1,280,96.42a25.3,25.3,0,0,1-6.87-3.9l-2.75,4.36a22.38,22.38,0,0,0,7.79,4.23,31.13,31.13,0,0,0,9.16,1.49c4.69,0,8.47-1,11.22-3.2a11,11,0,0,0,4.13-8.82,8.38,8.38,0,0,0-.92-4.13A7.9,7.9,0,0,0,298.92,83.48Z"></path>
+   <path class="cls-1 cls-4" d="M413.91,62.4a13.27,13.27,0,0,0-7,2.75,18.14,18.14,0,0,0-5.27,6.53V62.63h-6.07v38.83h6.64V77.63A12.77,12.77,0,0,1,407.38,71a16.8,16.8,0,0,1,8.71-2.52V62.52c-.34,0-.57-.12-.92-.12Z"></path>
+   <path class="cls-1 cls-4" d="M385.05,93.56V77.75c0-4.93-1.38-8.82-4.24-11.57s-6.76-4.12-11.91-4.12a26.83,26.83,0,0,0-15.12,5L356,71.33c4.35-3.09,8.36-4.58,12.37-4.58A9.39,9.39,0,0,1,378.64,75a5.79,5.79,0,0,1,0,2V80a19.05,19.05,0,0,0-5.16-1.37,48.36,48.36,0,0,0-5.73-.58,20.82,20.82,0,0,0-6.52.92,19.22,19.22,0,0,0-5.16,2.4,10.94,10.94,0,0,0-3.43,3.78A10.17,10.17,0,0,0,351.49,90a11.7,11.7,0,0,0,1,4.82,12.2,12.2,0,0,0,6.87,6.29,14.93,14.93,0,0,0,5,.92,19.49,19.49,0,0,0,8.48-1.83,15.65,15.65,0,0,0,6.53-5.27l.11,2.75a4.25,4.25,0,0,0,1.38,2.75,4.31,4.31,0,0,0,3.09,1.14,1.48,1.48,0,0,0,1.37.23l1.72-.23V96C385.74,96,385.05,95.16,385.05,93.56Zm-6.53-3.78a4.26,4.26,0,0,1-1.37,2.86,10.6,10.6,0,0,1-4.59,3.44A14.26,14.26,0,0,1,366,97.34a10.54,10.54,0,0,1-3.33-.58,8.1,8.1,0,0,1-2.74-1.6,7.41,7.41,0,0,1-1.84-2.41,5.56,5.56,0,0,1-.57-3.09,6.26,6.26,0,0,1,3.09-5.38,14,14,0,0,1,8-2.06,25.92,25.92,0,0,1,9.85,1.83Z"></path>
+   <path class="cls-1 cls-4" d="M447.59,92.87a9.53,9.53,0,0,1-2.41,1.83A9.31,9.31,0,0,1,442.09,96a12,12,0,0,1-3.44.46,11.09,11.09,0,0,1-5-1.15,12.09,12.09,0,0,1-4.12-3.09,14.78,14.78,0,0,1-2.75-4.69v.34a16.45,16.45,0,0,1,0-11.46,12.64,12.64,0,0,1,2.75-4.58,11.77,11.77,0,0,1,4.12-3,12.78,12.78,0,0,1,5-1,12.12,12.12,0,0,1,6,1.49,11.17,11.17,0,0,1,4.12,4.24l6.42-2.06a16.67,16.67,0,0,0-6.3-6.87,18.94,18.94,0,0,0-10-2.52,19,19,0,0,0-14.2,6,20.45,20.45,0,0,0-4,6.3,21.19,21.19,0,0,0,0,15.47,19.33,19.33,0,0,0,18.21,12.48,20.15,20.15,0,0,0,10.31-2.75A16.13,16.13,0,0,0,453,96.42a17.59,17.59,0,0,0,2.52-3.9l-6.41-1.94A6.35,6.35,0,0,1,447.59,92.87Z"></path>
+   <path class="cls-1 cls-4" d="M341.75,68.13a18.86,18.86,0,0,0-14.08-6,19.24,19.24,0,0,0-8,1.61,20,20,0,0,0-6.3,4.35,19.74,19.74,0,0,0-4.12,6.41,19.52,19.52,0,0,0-1.49,7.79,22.81,22.81,0,0,0,1.49,7.79,19.59,19.59,0,0,0,4,6.41,18.78,18.78,0,0,0,6.3,4.36,21.33,21.33,0,0,0,8,1.6,23.41,23.41,0,0,0,5.61-.69A17.87,17.87,0,0,0,338,99.74a16.48,16.48,0,0,0,3.9-3.09,14.56,14.56,0,0,0,2.63-3.9l-5.61-1.6a8.63,8.63,0,0,1-1.72,2.63,11.62,11.62,0,0,1-2.63,2.07,11.07,11.07,0,0,1-3.21,1.26,11.92,11.92,0,0,1-3.44.45,13.87,13.87,0,0,1-4.81-.91,16.15,16.15,0,0,1-4-2.64,11.64,11.64,0,0,1-2.87-4.12,14.34,14.34,0,0,1-1.37-5.27H347V81.87a20.76,20.76,0,0,0-1.37-7.44A20,20,0,0,0,341.75,68.13ZM314.61,79.58a15.37,15.37,0,0,1,1.26-5,12.35,12.35,0,0,1,2.86-4,13.73,13.73,0,0,1,4-2.63,13.12,13.12,0,0,1,13.86,2.52,13.91,13.91,0,0,1,2.86,4A17.29,17.29,0,0,1,341,79.58Z"></path>
+   <path class="cls-1 cls-4" d="M191.94,54.15a17,17,0,0,0-5-3.89,15.44,15.44,0,0,0-6.41-1.49h-22v52.8h6.65V82.67h15.8a14.76,14.76,0,0,0,6.3-1.37,15.85,15.85,0,0,0,4.93-3.78,15.43,15.43,0,0,0,3.09-5.5,17.06,17.06,0,0,0,1.15-6.3,16.89,16.89,0,0,0-1.15-6.18A20.25,20.25,0,0,0,191.94,54.15ZM189,70a13.12,13.12,0,0,1-1.83,3.55,8.38,8.38,0,0,1-2.86,2.41,7.13,7.13,0,0,1-3.78.8H165.14V54.84H180a8.14,8.14,0,0,1,3.66.8,12.16,12.16,0,0,1,3.09,2.29,12.08,12.08,0,0,1,2.87,7.79A13.08,13.08,0,0,1,189,70Z"></path>
+   <path class="cls-1 cls-4" d="M222.18,62.52a13.21,13.21,0,0,0-7,2.74,18.24,18.24,0,0,0-5.27,6.53V62.74h-6.07v38.83h6.53V77.63a12.28,12.28,0,0,1,5.27-6.52,16.65,16.65,0,0,1,8.7-2.52v-6c-.34,0-.57-.11-.91-.11Z"></path>
+   <path class="cls-1 cls-4" d="M266.39,83.36V81.87A20.77,20.77,0,0,0,265,74.43a19.81,19.81,0,0,0-3.89-6.3,18.88,18.88,0,0,0-14.09-6,19.24,19.24,0,0,0-8,1.61,19,19,0,0,0-10.3,10.76,19.52,19.52,0,0,0-1.49,7.79,20.28,20.28,0,0,0,1.49,7.79,19.59,19.59,0,0,0,4,6.41,18.78,18.78,0,0,0,6.3,4.36,21.33,21.33,0,0,0,8,1.6,23.41,23.41,0,0,0,5.61-.69,17.74,17.74,0,0,0,4.81-2.06,16.48,16.48,0,0,0,3.9-3.09,14.56,14.56,0,0,0,2.63-3.9l-5.61-1.6a6.88,6.88,0,0,1-1.72,2.63A15.05,15.05,0,0,1,254,95.85a11.07,11.07,0,0,1-3.21,1.26,11.92,11.92,0,0,1-3.44.45,13.87,13.87,0,0,1-4.81-.91,16.34,16.34,0,0,1-4-2.64,11.64,11.64,0,0,1-2.87-4.12,14.34,14.34,0,0,1-1.37-5.27H266.5A4.89,4.89,0,0,1,266.39,83.36ZM234,79.58a15.89,15.89,0,0,1,1.26-5,12.38,12.38,0,0,1,2.87-4,13.6,13.6,0,0,1,4-2.63A13.13,13.13,0,0,1,256,70.42a14.3,14.3,0,0,1,2.86,4,17.59,17.59,0,0,1,1.49,5.15Z"></path>
+</svg>
+                            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.presearch.io" target="_blank">About</a></li>
+                <li><a href="https://marketplace.presearch.org" target="_blank">Buy Tokens</a></li>
+                <li><a href="https://keywords.presearch.org">Keyword Staking</a></li>
+                <li><a href="https://nodes.presearch.org">Nodes</a></li>
+
+                <!-- Authentication Links -->
+                                    <li><a href="https://presearch.org/login">Register or Login</a></li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+      </header>
+    </div>
+
+    <div class="row">
+      <div id="main">
+
+          <section>
+  <div>
+    <div class="logo center-block">
+      <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 589.8 96.4" style="enable-background:new 0 0 589.8 96.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#010101;}
+</style>
+<g>
+	<path class="st0" d="M320,36.2c-6.4-6.8-15.4-10.6-24.6-10.4c-4.8,0-9.6,0.8-14,2.8c-4.2,1.8-7.8,4.4-11,7.6c-3,3.2-5.6,7-7.2,11.2
+		c-1.8,4.2-2.6,8.8-2.6,13.6c0,4.6,1,9.2,2.6,13.6c1.6,4.2,4,8,7,11.2s6.8,5.8,11,7.6c4.4,1.8,9.2,2.8,14,2.8c3.2,0,6.6-0.4,9.8-1.2
+		c3-0.8,5.8-2,8.4-3.6c2.4-1.4,4.8-3.2,6.8-5.4c2-2,3.4-4.4,4.6-6.8l-9.8-2.8c-0.8,1.8-1.8,3.4-3,4.6c-1.4,1.4-2.8,2.6-4.6,3.6
+		s-3.6,1.8-5.6,2.2c-2,0.6-4,0.8-6,0.8c-2.8,0-5.8-0.6-8.4-1.6c-2.6-1.2-5-2.8-7-4.6c-2.2-2-3.8-4.4-5-7.2c-1.4-3-2.2-6-2.4-9.2
+		h56.2c0-1,0-1.6,0-2.2c0-0.8,0-1.6,0-2.6c0-4.4-0.8-8.8-2.4-13C325.2,43.2,323,39.4,320,36.2z M272.6,56.2c0.2-3,1-6,2.2-8.8
+		c1.2-2.6,2.8-5,5-7c2-2,4.4-3.4,7-4.6c8.2-3.4,17.6-1.6,24.2,4.4c2,2,3.8,4.4,5,7c1.4,3,2.2,6,2.6,9
+		C318.6,56.2,272.6,56.2,272.6,56.2z"/>
+	<path class="st0" d="M250.2,68.2c-1.2-2.2-2.8-3.8-5-5.2c-2.6-1.6-5.4-3-8.2-3.8c-3.4-1-7.2-2.2-11.8-3.2c-2.8-0.6-5.2-1.4-7.4-2
+		c-1.8-0.4-3.4-1.2-5-2c-1.2-0.6-2.2-1.6-2.8-2.8s-0.8-2.6-0.8-4c-0.2-3.4,1.4-6.6,4.4-8.4c3.2-1.8,6.8-2.8,10.6-2.6
+		c3.8,0,7.4,0.6,11,1.8s6.8,3.2,9.6,5.6l5.2-6.8c-3.2-2.8-7-5-11.2-6.4c-4.6-1.6-9.4-2.6-14.2-2.4c-3.4,0-6.8,0.4-10.2,1.4
+		c-3,0.8-5.8,2.2-8.2,4c-2.4,1.8-4.2,4-5.6,6.6c-1.4,2.8-2,5.8-2,9c0,2.4,0.4,4.6,1.2,6.8c1,2,2.4,3.6,4.2,4.6
+		c2.2,1.4,4.6,2.6,7.2,3.4c3,1,6.4,2,10.6,3c3.2,0.8,6,1.6,8.4,2.2c2,0.6,4,1.4,6,2.4c1.4,0.8,2.6,1.8,3.6,3
+		c0.8,1.2,1.2,2.8,1.2,4.2c0.2,3.4-1.6,6.4-4.4,8.2c-3.6,2.2-7.6,3.2-11.8,3c-4.2,0-8.6-0.8-12.6-2.2c-4.4-1.6-8.4-4-12-6.8
+		l-4.8,7.6c4,3.4,8.6,5.8,13.6,7.4c5.2,1.6,10.6,2.6,16,2.6c8.2,0,14.8-1.8,19.6-5.6c4.8-4,7.4-9.6,7.2-15.4
+		C251.8,72.8,251.4,70.4,250.2,68.2z"/>
+	<path class="st0" d="M588.8,43c-0.6-3.2-1.8-6.2-3.4-9c-1.6-2.6-4-4.6-6.6-6c-3.2-1.6-6.6-2.4-10.2-2.2c-5.4,0-10.6,1.4-15,4.2
+		c-4.6,2.8-8.4,6.8-11,11.6V0h-11.2v94.8h11.4v-41c0.8-2.6,2-5,3.4-7.2c1.4-2,3.2-4,5.2-5.6s4-2.8,6.4-3.8c2.2-0.8,4.4-1.4,6.8-1.4
+		c4.2-0.2,8.2,1.6,10.6,5.2c2.4,3.4,3.6,8.6,3.6,15.6v37.8h11V54.2C589.8,50.4,589.4,46.6,588.8,43z"/>
+	<path class="st0" d="M504.8,79.4c-1.2,1.2-2.6,2.4-4.2,3.2c-1.6,1-3.4,1.8-5.4,2.2c-2,0.6-4,0.8-6,0.8c-3,0-6-0.6-8.8-2
+		c-2.8-1.2-5.2-3.2-7.2-5.4c-2-2.4-3.8-5.2-4.8-8.2v0.6c-1.2-3.2-1.8-6.6-1.8-10s0.6-6.8,1.8-10c1-3,2.6-5.6,4.8-8
+		c2-2.2,4.4-4,7.2-5.2s5.8-1.8,8.8-1.8c3.6,0,7.2,0.8,10.4,2.6c3,1.8,5.6,4.4,7.2,7.4L518,42c-2.4-5-6.4-9.2-11-12
+		c-5.2-3-11.4-4.6-17.4-4.4c-4.8,0-9.6,0.8-14,2.8c-4,1.8-7.8,4.4-10.8,7.6s-5.4,7-7,11c-3.4,8.8-3.4,18.4,0,27c1.6,4.2,4,8,7,11.2
+		c6.4,6.8,15.4,10.6,24.8,10.6c6.4,0,12.6-1.6,18-4.8c2.4-1.4,4.6-3.2,6.6-5.4c1.8-2,3.2-4.4,4.4-6.8l-11.2-3.4
+		C506.8,77,506,78.2,504.8,79.4z"/>
+	<path class="st0" d="M446,26.2c-4.4,0.4-8.6,2-12.2,4.8c-4,3-7,7-9.2,11.4V26.6H414v67.8h11.6V52.8c1.4-4.6,4.8-8.8,9-11.6
+		c4.6-2.8,9.8-4.4,15.2-4.4V26.4c-0.6,0-1-0.2-1.6-0.2C448.2,26.2,446,26.2,446,26.2z"/>
+	<path class="st0" d="M395.6,80.6V53c0-8.6-2.4-15.4-7.4-20.2s-11.8-7.2-20.8-7.2c-9.4,0.2-18.6,3.2-26.4,8.8l3.8,7.4
+		c7.6-5.4,14.6-8,21.6-8c9-1,17,5.6,18,14.4c0.2,1,0.2,2.2,0,3.4V57c-2.8-1.2-5.8-2-9-2.4c-3.4-0.6-6.6-0.8-10-1
+		c-3.8,0-7.8,0.4-11.4,1.6c-3.2,1-6.4,2.4-9,4.2c-2.4,1.6-4.6,4-6,6.6c-1.4,2.6-2,5.6-2,8.4s0.6,5.8,1.8,8.4s2.8,4.8,4.8,6.6
+		c2,2,4.6,3.4,7.2,4.4c2.8,1,5.8,1.6,8.8,1.6c5.2,0,10.2-1,14.8-3.2c4.6-2,8.6-5.2,11.4-9.2l0.2,4.8c0.2,1.8,1,3.6,2.4,4.8
+		c1.4,1.4,3.4,2,5.4,2c0.8,0.6,1.6,0.6,2.4,0.4l3-0.4v-9.8C396.8,84.8,395.6,83.4,395.6,80.6z M384.2,74c-0.2,2-1,3.8-2.4,5
+		c-2,2.6-4.8,4.8-8,6c-3.6,1.6-7.4,2.4-11.4,2.2c-2,0-4-0.4-5.8-1s-3.4-1.6-4.8-2.8c-1.4-1.2-2.4-2.6-3.2-4.2
+		c-0.8-1.6-1.2-3.4-1-5.4c0-3.8,2-7.4,5.4-9.4c4.2-2.6,9-3.8,14-3.6c6,0,11.8,1,17.2,3.2L384.2,74L384.2,74z"/>
+	<path class="st0" d="M188.4,62.8c0-0.8,0-1.6,0-2.6c0-4.4-0.8-8.8-2.4-13c-1.6-4-3.8-7.8-6.8-11c-6.4-6.8-15.4-10.6-24.6-10.4
+		c-4.8,0-9.6,0.8-14,2.8c-8.4,3.6-14.8,10.4-18,18.8c-1.8,4.2-2.6,8.8-2.6,13.6c0,4.6,0.8,9.2,2.6,13.6c1.6,4.2,4,8,7,11.2
+		s6.8,5.8,11,7.6c4.4,1.8,9.2,2.8,14,2.8c3.2,0,6.6-0.4,9.8-1.2c3-0.8,5.8-2,8.4-3.6c2.4-1.4,4.8-3.2,6.8-5.4c2-2,3.4-4.4,4.6-6.8
+		l-9.8-2.8c-0.6,1.8-1.8,3.4-3,4.6c-1.4,1.4-3,2.6-4.6,3.6c-1.8,1-3.6,1.8-5.6,2.2c-2,0.6-4,0.8-6,0.8c-2.8,0-5.8-0.6-8.4-1.6
+		c-2.6-1.2-5-2.8-7-4.6c-2.2-2-3.8-4.4-5-7.2c-1.4-3-2.2-6-2.4-9.2h56.2C188.4,64.2,188.4,63.6,188.4,62.8z M131.8,56.2
+		c0.2-3,1-6,2.2-8.8c1.2-2.6,2.8-5,5-7c2-2,4.4-3.4,7-4.6c8.2-3.4,17.6-1.6,24.2,4.4c2,2,3.8,4.4,5,7c1.4,3,2.2,6,2.6,9
+		C177.8,56.2,131.8,56.2,131.8,56.2z"/>
+	<path class="st0" d="M58.4,11.8C56,9,53,6.8,49.6,5c-3.4-1.6-7.4-2.6-11.2-2.6H0v92.2h11.6v-33h27.6c3.8,0,7.6-0.8,11-2.4
+		c3.2-1.6,6.2-3.8,8.6-6.6s4.4-6.2,5.4-9.6c1.4-3.6,2-7.2,2-11c0-3.6-0.6-7.2-2-10.8C62.8,17.8,60.8,14.6,58.4,11.8z M53.2,39.4
+		c-0.8,2.2-1.8,4.4-3.2,6.2s-3,3.2-5,4.2s-4.2,1.6-6.6,1.4H11.6V13h26c2.2,0,4.4,0.4,6.4,1.4s3.8,2.4,5.4,4c3.2,3.8,5,8.6,5,13.6
+		C54.4,34.6,54,37,53.2,39.4z"/>
+	<path class="st0" d="M111.2,26.4c-4.4,0.4-8.6,2-12.2,4.8c-4,3-7,7-9.2,11.4V26.8H79.2v67.8h11.4V52.8c1.6-4.6,4.8-8.8,9.2-11.4
+		c4.6-2.8,9.8-4.4,15.2-4.4V26.6c-0.6,0-1-0.2-1.6-0.2H111.2L111.2,26.4z"/>
+</g>
+</svg>
+
+    </div>
+    <div id="search-input" class="center-block text-center" style="max-width:540px;">
+      <div class="input-group">
+        <input id="search" type="search" name="term" placeholder="Search" class="main-search form-control input-lg" autocomplete="off" spellcheck="false" dir="auto">
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-lg btn-default">
+            <i class="fa fa-lg fa-search"></i>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    
+    <ul class="search-engine text-center">
+      
+      
+    </ul>
+  </div>
+</section>
+
+<section></section>
+
+<section></section>
+
+  <div class="login-blur" style="opacity:0;"></div>
+
+  <div class="login-box" style="opacity:0;">
+    <div class="login-logo text-center tw-flex tw-justify-center">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 370"><defs><style>.cls-1{fill:#2d8eff;}</style></defs><title>presearch-logo-border-blue-transparent</title><path class="cls-1" d="M135.17,225.38h32.71a63,63,0,0,0,27.06-6,68,68,0,0,0,21-16.16,75,75,0,0,0,13.33-23.42,76.44,76.44,0,0,0,4.84-27.06,66.16,66.16,0,0,0-5.25-26.25,80.79,80.79,0,0,0-14.13-23,70.91,70.91,0,0,0-21.41-16.55,58,58,0,0,0-27-6.47h-86V289.19h54.92Zm0-94.5H163a15,15,0,0,1,10.1,4.85c3.23,3.23,5.25,8.89,5.25,17.77s-2,14.13-4.85,17c-2.42,2.83-5.65,4.85-9.28,4.85H135.17Z"/><path class="cls-1" d="M9.44,30.1V339.9A20.1,20.1,0,0,0,29.54,360h309.8a20.1,20.1,0,0,0,20.1-20.1V30.1A20.1,20.1,0,0,0,339.34,10H29.54A20.1,20.1,0,0,0,9.44,30.1ZM298.11,318.77H70.35a20.1,20.1,0,0,1-20.11-20.1V70.91a20.1,20.1,0,0,1,20.11-20.1H298.11a20.1,20.1,0,0,1,20.1,20.1V298.67A20.1,20.1,0,0,1,298.11,318.77Z"/><rect class="cls-1" x="159.8" y="250.02" width="128.83" height="39.58"/></svg>
+
+    </div>
+    <div class="welcome">
+      <h3 class="text-center dark:tw-text-gray-300">Welcome To Presearch</h3>
+      <h4 class="text-center dark:tw-text-gray-300"><i>Protect your privacy and earn crypto rewards</i></h4>
+    </div>
+    <div class="tab-content">
+      <input type="hidden" name="redirect_url" value="" />
+      <div id="login-form" class="tab-pane active animated flipInX">
+        <form method="POST" action="https://presearch.org/login">
+    <input type="hidden" name="_token" value="23YKM4gVnHvOH7sWlowcFEpdGD0JV7aqqeFBVmZA">
+    <input type="hidden" name="login_form" value="1" />
+
+    <div class="form-group ">
+
+        <input type="email" class="form-control dark:focus:tw-shadow-none" placeholder="Email" name="email" value="" required autofocus>
+
+            </div>
+
+    <div class="form-group ">
+      <div class="password-lock ">
+        <input type="password" class="form-control dark:focus:tw-shadow-none" placeholder="Password" name="password" required>
+        <i class="fa fa-lg fa-lock pull-right blue tw-absolute tw-top-2 tw-right-2 dark:text-dark-800"></i>
+      </div>
+
+          </div>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="checkbox blue text-left">
+            <label>
+              <input type="checkbox" name="remember" value="1" > Remember Me
+            </label>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="checkbox blue text-right">
+            <a class="blue pull-right" href="#forgot-password-form" data-toggle="tab">
+              Forgot Password?
+            </a>
+          </div>
+        </div>
+      </div>
+
+              <div class="form-group text-center recaptcha-holder">
+            <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+        </div>
+      
+      <div class="form-group">
+        <button type="submit" class="btn btn-block tw-bg-yellow-600 tw-text-white hover:tw-text-white hover:tw-opacity-60 tw-transition">
+            Login
+        </button>
+      </div>
+    </div>
+
+    
+
+</form>
+
+<div class="text-center">
+  <a href="#register-form" data-toggle="tab" class="register-form-show btn btn-block tw-bg-presearch-blue tw-text-white hover:tw-text-white dark:tw-bg-blue-600 hover:tw-opacity-70 tw-transition">
+    Create Account
+  </a>
+</div>
+      </div>
+      <div id="register-form" class="tab-pane  animated flipInX">
+        <form method="POST" action="https://presearch.org/register">
+  <input type="hidden" name="_token" value="23YKM4gVnHvOH7sWlowcFEpdGD0JV7aqqeFBVmZA">
+  <input type="hidden" name="register_form" value="1" />
+
+  <input type="hidden" name="code"
+    value="" />
+
+  <input type="hidden" name="portal_referrer_id"
+    value="0" />
+
+  <div class="form-group ">
+    <input type="email" class="form-control dark:focus:tw-shadow-none" name="email" placeholder="Email Address" value="" required>
+      </div>
+
+  <div class="form-group ">
+    <input placeholder="Password" type="password" class="form-control dark:focus:tw-shadow-none" name="password" minlength="8" required>
+
+      </div>
+
+  <div class="form-group">
+    <input id="password-confirm" placeholder="Confirm Password" type="password" class="form-control dark:focus:tw-shadow-none" name="password_confirmation" minlength="8" required>
+  </div>
+
+  <div class="form-group text-center">
+    <label class="checkbox-inline">
+      <input type="checkbox" name="agreed_to_terms" value="1" required><small>I have read and agree to the <a class="dark:tw-text-blue-400" href="https://presearch.org/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</small></a>
+    </label>
+  </div>
+
+          <div class="form-group text-center recaptcha-holder">
+          <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+      </div>
+    
+  <div class="form-group">
+    <button type="submit" class="btn btn-lg btn-block tw-bg-yellow-600 tw-text-white hover:tw-text-white hover:tw-opacity-60 tw-transition">
+        Sign Up Now
+    </button>
+  </div>
+</form>
+
+<div class="text-center">
+  Have an account? <a href="#login-form" data-toggle="tab" class="login-form-show blue dark:tw-text-blue-400 hover:tw-opacity-60 tw-transition">Login Here</a>
+</div>
+      </div>
+      <div id="2fa-form" class="tab-pane  animated flipInX">
+        <form method="POST" action="https://presearch.org/2fa/validate">
+  <input type="hidden" name="_token" value="23YKM4gVnHvOH7sWlowcFEpdGD0JV7aqqeFBVmZA">
+  <input type="hidden" name="2fa_form" value="1" />
+
+  
+  <div class="form-group text-center">
+    Please open your authenticator app and enter the current one-time password below:
+  </div>
+
+  <div class="form-group text-center">
+    <input type="number" class="form-control" name="totp">
+  </div>
+
+  <div class="form-group text-center">
+    <button type="submit" class="btn btn-block btn-primary">
+      Validate
+    </button>
+  </div>
+</form>
+
+<div class="text-center">
+  <a href="#login-form" data-toggle="tab" class="login-form-show">Back To Login Form</a>
+</div>
+      </div>
+      <div id="forgot-password-form" class="tab-pane  animated flipInX">
+        <form class="form-horizontal" method="POST" action="https://presearch.org/password/email">
+    <input type="hidden" name="_token" value="23YKM4gVnHvOH7sWlowcFEpdGD0JV7aqqeFBVmZA">
+    <input type="hidden" name="forgot-password_form" value="1" />
+
+    <div class="form-group text-center">
+      To reset your password enter your email address below:
+    </div>
+
+    <div class="form-group">
+      <input id="email" type="email" class="form-control" name="email" value="" required>
+
+          </div>
+
+            <div class="form-group text-center recaptcha-holder">
+            <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1,"curl_verify":true};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Ld8iTgUAAAAAEOBY40d2BmJ5p0brjb7jmS460rx"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+        </div>
+    
+    <div class="form-group tw-flex tw-justify-center">
+      <button type="submit" class="btn tw-bg-yellow-600 hover:tw-text-white hover:tw-opacity-60 tw-transition">
+        Send Password Reset Link
+      </button>
+    </div>
+</form>
+
+<div class="text-center">
+  <a href="#login-form" data-toggle="tab" class="login-form-show dark:tw-text-blue-400 hover:tw-opacity-60 tw-transition">Back To Login Form</a>
+</div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <footer>
+        <style>
+.tw-dark body.has-sidebar footer {
+  color:#D1D5DB;
+}
+</style>
+  <div class="socialicons">
+    <a class="icon" href="https://medium.com/@presearch" target="_blank" title="Medium"><i class="fa fa-medium"></i></a>
+    <a class="icon" href="https://twitter.com/presearchnews" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a class="icon" href="https://www.facebook.com/presearch.io/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a class="icon" href="https://t.me/presearchnews" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a>
+    <a class="icon" href="https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  </div>
+  <div class="copyright text-center">
+    &copy; 2021 Presearch.org Global Limited
+  </div>
+
+    <script type="text/javascript" src="/js/app.js?id=cfb9c3cd8f0aa12e1e8c"></script>
+  
+    
+  
+
+
+  <script type="text/javascript">
+    setTimeout(function() {
+      $('body').addClass('active')
+    }, 1000)
+  </script>
+
+  <script type="text/javascript" src="/js/login.js?id=285fec5e515b84bc8dd2"></script>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+<!-- EOF -->1N,¦           a\áC|œ       G    O^partitionKey=%28https%2Cpresearch.org%29,:https://presearch.org/login strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=UTF-8
+date: Tue, 05 Oct 2021 23:34:10 GMT
+server: Apache/2.4.46 (Amazon) OpenSSL/1.0.2k-fips PHP/7.3.23
+x-powered-by: PHP/7.3.23
+cache-control: no-cache, private
+content-security-policy: default-src *.google.com *.youtube-nocookie.com *.youtube.com *.presearch.org *.presearch-preview.org; base-uri 'none'; connect-src 'self' *.zdassets.com wss://*.zopim.com engine-api.presearch.org wss://engine-api.presearch.org *.presearch.org wss://*.presearch.org keywords.presearch.org nodes.presearch.org marketplace.presearch.org; font-src 'self' data: *.zdassets.com *.zopim.com *.typekit.net use.fontawesome.com fonts.gstatic.com; form-action 'self' *; frame-ancestors 'none'; img-src 'self' https://dfa8d4pmuymeu.cloudfront.net http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org pre-preview-sponsor-ads.s3.us-east-2.amazonaws.com *.zopim.com *.wikimedia.org data: i.ytimg.com; media-src 'self' http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org http://marketplace.presearch.org https://marketplace.presearch.org http://marketplace.presearch-preview.org https://marketplace.presearch-preview.org; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.zdassets.com *.zopim.com *.google.com *.gstatic.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' *.typekit.net use.fontawesome.com www.gstatic.com; worker-src *.google.com *.youtube.com; upgrade-insecure-requests
+feature-policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; display-capture 'self'; document-domain *; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self'
+strict-transport-security: max-age=15552000; preload
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: sameorigin
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer
+x-edge-origin-shield-skipped: 0
+x-cache: Miss from cloudfront
+via: 1.1 4cb1c715abfea3c2d99c87070fbe2f27.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK51-C1
+x-amz-cf-id: nMlq0wXPBHvZQeKzK9Kg9qWf3uvmlVRAyvKN73aF80_Cu-4tL9WXPA==
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Tue, 05 Oct 2021 23:34:10 GMT
+server: Apache/2.4.46 (Amazon) OpenSSL/1.0.2k-fips PHP/7.3.23
+x-powered-by: PHP/7.3.23
+cache-control: no-cache, private
+content-security-policy: default-src *.google.com *.youtube-nocookie.com *.youtube.com *.presearch.org *.presearch-preview.org; base-uri 'none'; connect-src 'self' *.zdassets.com wss://*.zopim.com engine-api.presearch.org wss://engine-api.presearch.org *.presearch.org wss://*.presearch.org keywords.presearch.org nodes.presearch.org marketplace.presearch.org; font-src 'self' data: *.zdassets.com *.zopim.com *.typekit.net use.fontawesome.com fonts.gstatic.com; form-action 'self' *; frame-ancestors 'none'; img-src 'self' https://dfa8d4pmuymeu.cloudfront.net http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org pre-preview-sponsor-ads.s3.us-east-2.amazonaws.com *.zopim.com *.wikimedia.org data: i.ytimg.com; media-src 'self' http://*.presearch.org https://*.presearch.org http://*.presearch-preview.org https://*.presearch-preview.org http://marketplace.presearch.org https://marketplace.presearch.org http://marketplace.presearch-preview.org https://marketplace.presearch-preview.org; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.zdassets.com *.zopim.com *.google.com *.gstatic.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' *.typekit.net use.fontawesome.com www.gstatic.com; worker-src *.google.com *.youtube.com; upgrade-insecure-requests
+feature-policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; display-capture 'self'; document-domain *; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self'
+strict-transport-security: max-age=15552000; preload
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: sameorigin
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer
+set-cookie: XSRF-TOKEN=eyJpdiI6IlFEMUljYTdlXC9XODgyZ3htR1FscnJnPT0iLCJ2YWx1ZSI6InUxa3JSeTRNblNWQ3h4VjhqUEFtS3BGaVJOeVZhK3lzVDFlVmtiZnl0WWtaZmcyVDZiSVp1NlZvZlp3M3ExcUUiLCJtYWMiOiIzNjJkY2JkMTQxZmYxZjY0YmViYTgyOTg1ODJmMzVkN2U3YTQ0MzQ1YWFmNWI0NDliYWVmOGQwYWRhMjAyNDZjIn0%3D; expires=Tue, 12-Oct-2021 23:34:10 GMT; Max-Age=604800; path=/; domain=.presearch.org; secure; samesite=none
+set-cookie: presearch_session=eyJpdiI6IlAxOXlJSjNNZ2RIdnM1Y3BEWGFtbVE9PSIsInZhbHVlIjoidE1SdEZoRzJDXC9uR0wrd3RrYXh4dWVQTWhzXC95Q1lnTnZcL0tUS1l6NndyODU5Y0hjRnEyMkpubTJ4NXk3RHVldTRqU1N2eTVmMmdGdzNhN1c3bmEzQTJRclNYMnpJb1wvYmZMYjNhVlZTVlc0NjRpVVZzbUtBOEZSUjhyM0hsVXVhIiwibWFjIjoiOGVmYjgwMTEzOGQzYWUwMTcyZjM0YWE4MDg1YTlhNGQ3NDI0MTcwZjBmMGI0OTY1ZGQ5ODVkM2U1YTRlNWVmYSJ9; expires=Tue, 12-Oct-2021 23:34:10 GMT; Max-Age=604800; path=/; domain=.presearch.org; secure; httponly; samesite=none
+x-edge-origin-shield-skipped: 0
+x-cache: Miss from cloudfront
+via: 1.1 4cb1c715abfea3c2d99c87070fbe2f27.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK51-C1
+x-amz-cf-id: nMlq0wXPBHvZQeKzK9Kg9qWf3uvmlVRAyvKN73aF80_Cu-4tL9WXPA==
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0   r\
